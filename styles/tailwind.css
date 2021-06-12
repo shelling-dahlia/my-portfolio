@@ -1,0 +1,109 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes renderWave {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+@keyframes loaderWave {
+    0% {
+        transform: translateX(-50%) scaleX(0.2);
+    }
+
+    100% {
+        transform: translateX(100%) scaleX(0.8);
+    }
+}
+@keyframes cardWave {
+    0% {
+        transform: translate(10%, 10%) scale(0.8);
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+.fade-in {
+    animation: 1s forwards FadeIn;
+}
+
+.render-wave {
+    transform-origin: left;
+    animation: 1.2s forwards renderWave;
+}
+
+.fade-left {
+    animation: 1.2s forwards fadeLeft;
+}
+.card-wave {
+    animation: 1.2s forwards cardWave;
+}
+.loader-wave {
+    transform-origin: left;
+    animation: 1.2s forwards loaderWave;
+}
+
+.banner-fade-in {
+    opacity: 0;
+    animation: FadeIn 2s 1s forwards;
+}
+
+.bg-moon {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    background-image: url('/asset/icons/moonlight.svg'), url('/asset/icons/star.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-scroll {
+    position: absolute;
+    bottom: 100px;
+    color: #fefefe;
+    left: 4rem;
+    writing-mode: vertical-rl;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.btn-scroll::after {
+    content: '';
+    top: 110%;
+    left: 40%;
+    position: absolute;
+    display: block;
+    height: 85px;
+    width: 2px;
+    background-color: #fefefe;
+}
