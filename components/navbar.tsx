@@ -65,7 +65,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({ handleOnClick }) => {
             >
                 <div className="flex flex-col items-center justify-center h-full space-y-8 text-4xl font-semibold md:text-6xl">
                     {data.map((item, index) => (
-                        <div className="overflow-hidden ">
+                        <div className="overflow-hidden " key={item.label}>
                             <button
                                 onClick={() => {
                                     handleOnClick(index);

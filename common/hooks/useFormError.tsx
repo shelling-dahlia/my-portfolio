@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useSelector } from 'react-redux';
 
 import { RootState } from '../../store';
-import { ApiState } from '../interface/api.interface';
+import { ApiState } from '../../api/api.interface';
 
 export function useFormError<T>(defaultValues: T) {
     const [errors, setErrors] = React.useState<T>(defaultValues);
