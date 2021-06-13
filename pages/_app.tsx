@@ -15,7 +15,7 @@ export interface AppProps {
 
 const App: React.FunctionComponent<AppProps> = ({ Component, pageProps }) => {
     const [currentSelect, setCurrentSelect] = React.useState(0);
-    const debounceSelect = useDebounce(currentSelect, 200);
+    const debounceSelect = useDebounce(currentSelect, 500);
 
     function handleOnScroll(event: WheelEvent) {
         if (event.deltaY > 0) {

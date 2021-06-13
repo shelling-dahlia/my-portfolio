@@ -13,18 +13,17 @@ export interface SeoHeadProps {
 }
 
 const SeoHead: React.FunctionComponent<SeoHeadProps> = ({
-    title = 'MyChess',
+    title = '',
     isIndexPage = false,
     isFollowPage = true,
-    description = 'comment',
+    description = '',
     canonical = '/',
-    keyword = 'comment',
     imageUrl = '/asset/images/seo.jpg',
 }) => {
     const metaIndexPage = isIndexPage ? 'index' : 'noindex';
     const metaIsFollowPage = isFollowPage ? 'follow' : 'nofollow';
     const metaRobots = `${metaIndexPage},${metaIsFollowPage}`;
-    const pageTitle = title === 'Home' ? 'MyChess' : `${title} | MyChess`;
+    const pageTitle = `${title}`;
 
     return (
         <Head>
@@ -37,8 +36,8 @@ const SeoHead: React.FunctionComponent<SeoHeadProps> = ({
             <title>{capitalize(pageTitle)}</title>
             <meta name="description" content={description} />
             <meta name="robots" content={metaRobots} />
-            <meta name="keywords" content={keyword} />
-            <link href={'https://www.mychess.website' + canonical} rel="canonical" />
+            <meta name="keywords" content="Pham Vinh Nhan, portfolio, personal project" />
+            <link href={'https://heaty566.com/' + canonical} rel="canonical" />
             {/* google header */}
             <meta property="og:type" content="article" />
             <meta property="og:title" content={pageTitle} />

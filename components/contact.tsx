@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { useForm } from 'react-hook-form';
 import useFormError from '../common/hooks/useFormError';
+import { store } from '../store';
+import { commonThunk } from '../store/api/thunk';
 
 interface ContactForm {
     name: string;
@@ -19,7 +21,7 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
     const { register, handleSubmit } = useForm<ContactForm>({ defaultValues });
     const errors = useFormError<ContactForm>(defaultValues);
     const handleOnSubmit = (data: ContactForm) => {
-        console.log(data);
+        store.dispatch(commonThunk.sendSupport(data));
     };
 
     return (

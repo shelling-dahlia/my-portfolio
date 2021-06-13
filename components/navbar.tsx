@@ -3,11 +3,13 @@ import Link from 'next/link';
 import GithubIcon from '../public/asset/icons/github';
 import FacebookIcon from '../public/asset/icons/facebook';
 import LinkedinIcon from '../public/asset/icons/linkedin';
-
+import GmailIcon from '../public/asset/icons/gmail';
+import TooltipDropBox from '../components/tooltip';
 const socialConfig = {
     github: 'https://github.com/Heaty566',
     facebook: 'https://www.facebook.com/Heaty566/',
     linkedin: 'https://www.linkedin.com/in/heaty566/',
+    gmail: 'heaty566@gmail.com',
 };
 
 interface NavbarItem {
@@ -43,6 +45,11 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({ handleOnClick }) => {
                         <a target="__blank" href={socialConfig.facebook}>
                             <FacebookIcon />
                         </a>
+                        <TooltipDropBox content={socialConfig.gmail} maxLength={0} position="top-full">
+                            <a target="__blank" href={`mailto:${socialConfig.gmail}`}>
+                                <GmailIcon />
+                            </a>
+                        </TooltipDropBox>
                         <a target="__blank" href={socialConfig.linkedin}>
                             <LinkedinIcon />
                         </a>
@@ -86,6 +93,9 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({ handleOnClick }) => {
                         </a>
                         <a target="__blank" href={socialConfig.facebook}>
                             <FacebookIcon />
+                        </a>
+                        <a target="__blank" href={socialConfig.gmail}>
+                            <GmailIcon />
                         </a>
                         <a target="__blank" href={socialConfig.linkedin}>
                             <LinkedinIcon />

@@ -65,6 +65,7 @@
 .card-wave {
     animation: 1.2s forwards cardWave;
 }
+
 .loader-wave {
     transform-origin: left;
     animation: 1.2s forwards loaderWave;
@@ -91,7 +92,7 @@
     position: absolute;
     bottom: 100px;
     color: #fefefe;
-    left: 4rem;
+    left: 3rem;
     writing-mode: vertical-rl;
     font-weight: 600;
     letter-spacing: 5px;
