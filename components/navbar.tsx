@@ -10,9 +10,23 @@ const socialConfig = {
     linkedin: 'https://www.linkedin.com/in/heaty566/',
 };
 
-export interface NavbarProps {}
+interface NavbarItem {
+    label: string;
+    color: string;
+}
 
-const Navbar: React.FunctionComponent<NavbarProps> = () => {
+export const data: NavbarItem[] = [
+    { label: 'HOME', color: 'hover:bg-rose-500' },
+    { color: 'hover:bg-green-700', label: 'PROJECTS' },
+    { color: 'hover:bg-yellow-700', label: 'ABOUT ME' },
+    { color: 'hover:bg-blue-600', label: 'CONTACT ME' },
+];
+
+export interface NavbarProps {
+    handleOnClick: (index: number) => void;
+}
+
+const Navbar: React.FunctionComponent<NavbarProps> = ({ handleOnClick }) => {
     const [isActive, setActive] = React.useState(false);
 
     return (
@@ -50,50 +64,22 @@ const Navbar: React.FunctionComponent<NavbarProps> = () => {
                 }`}
             >
                 <div className="flex flex-col items-center justify-center h-full space-y-8 text-4xl font-semibold md:text-6xl">
-                    <div className="overflow-hidden ">
-                        <Link href="/">
-                            <a
-                                className={`inline-block duration-300 delay-500 transform rounded-tl-xl  rounded-br-xl overflow-hidden  ${
+                    {data.map((item, index) => (
+                        <div className="overflow-hidden ">
+                            <button
+                                onClick={() => {
+                                    handleOnClick(index);
+                                    setActive(false);
+                                }}
+                                className={`inline-block duration-300 delay-500 transform rounded-tl-xl  rounded-br-xl overflow-hidden focus:outline-none ${
                                     isActive ? '' : 'translate-y-full'
                                 }`}
                             >
-                                <span className="inline-block p-2 duration-200 transform hover:bg-rose-500 ">HOME</span>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="overflow-hidden">
-                        <Link href="/">
-                            <a
-                                className={`inline-block duration-300 delay-500 transform rounded-tl-xl  rounded-br-xl overflow-hidden  ${
-                                    isActive ? '' : 'translate-y-full'
-                                }`}
-                            >
-                                <span className="inline-block p-2 duration-200 transform hover:bg-green-700 ">WORKS</span>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="overflow-hidden">
-                        <Link href="/">
-                            <a
-                                className={`inline-block duration-300 delay-500 transform rounded-tl-xl  rounded-br-xl overflow-hidden  ${
-                                    isActive ? '' : 'translate-y-full'
-                                }`}
-                            >
-                                <span className="inline-block p-2 duration-200 transform hover:bg-yellow-700 ">ABOUT ME</span>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="overflow-hidden">
-                        <Link href="/">
-                            <a
-                                className={`inline-block duration-300 delay-500 transform rounded-tl-xl  rounded-br-xl overflow-hidden  ${
-                                    isActive ? '' : 'translate-y-full'
-                                }`}
-                            >
-                                <span className="inline-block p-2 duration-200 transform hover:bg-blue-600 ">CONTACT ME</span>
-                            </a>
-                        </Link>
-                    </div>
+                                <span className={`inline-block p-2 duration-200 transform  ${item.color}`}>{item.label}</span>
+                            </button>
+                        </div>
+                    ))}
+
                     <div className={`flex md:hidden  space-x-4 duration-300 delay-500 transform ${isActive ? '' : 'scale-x-0'}`}>
                         <a target="__blank" href={socialConfig.github}>
                             <GithubIcon />
