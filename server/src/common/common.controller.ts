@@ -27,9 +27,9 @@ export class CommonController {
       @Post('/support')
       @UsePipes(new JoiValidatorPipe(vSupportDto))
       async cSupport(@Body() body: SupportDTO) {
-            if (this.counter <= 2) {
+            if (this.counter <= 5) {
                   this.counter += 1;
-                  // await this.smailService.sendMail(process.env.MY_EMAIL, `Name: ${body.name} - Email: ${body.email} - Body: ${body.message}`);
+                  await this.smailService.sendMail(process.env.MY_EMAIL, `Name: ${body.name} - Email: ${body.email} - Body: ${body.message}`);
             }
 
             return apiResponse.send({ details: { message: { type: 'message.thank-you-feedback' } } });

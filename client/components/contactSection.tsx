@@ -19,7 +19,7 @@ const defaultValues: ContactForm = {
 };
 export interface ContactProps {}
 
-const Contact: React.FunctionComponent<ContactProps> = () => {
+const ContactSection: React.FunctionComponent<ContactProps> = () => {
     const { register, handleSubmit, reset } = useForm<ContactForm>({ defaultValues });
     const apiState = useSelector<RootState, ApiState>((state) => state.api);
     const errors = useFormError<ContactForm>(defaultValues);
@@ -71,7 +71,7 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
                     {Boolean(errors.message.length) && <p className="text-red-500 fade-in">Message {errors.message}</p>}
                 </div>
                 <div>
-                    <button className="inline-block p-2 font-semibold duration-300 bg-red-500 rounded-sm hover:bg-red-600 text-coolGray-50">
+                    <button className="inline-block p-2 font-semibold duration-300 bg-red-500 rounded-sm hover:bg-red-600 text-coolGray-50 focus:outline-none">
                         Submit Message
                     </button>
                 </div>
@@ -80,4 +80,4 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
     );
 };
 
-export default Contact;
+export default ContactSection;

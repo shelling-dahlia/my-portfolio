@@ -26,7 +26,8 @@ export default class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#ffffff" />
                     <meta name="msapplication-TileImage" content="/asset/share/ms-icon-144x144.png" />
                     <meta name="theme-color" content="#ffffff" />
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEMBDB700Z"></script>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Q1XL029H8"></script>
+                    <script src="/static/google.js"></script>
                 </Head>
 
                 <body className="preload">

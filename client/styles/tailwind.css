@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*:focus {
+    outline: 0 !important;
+}
 @keyframes FadeIn {
     0% {
         opacity: 0;

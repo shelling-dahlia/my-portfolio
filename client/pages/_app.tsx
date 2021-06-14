@@ -8,6 +8,8 @@ import { store } from '../store';
 import Navbar from '../components/navbar';
 import { useDebounce } from '../common/hooks/useDebounce';
 import { data } from '../components/navbar';
+import { useThrottle } from '../common/hooks/useThrottle';
+import { useTouch } from '../common/hooks/useTouch';
 export interface AppProps {
     Component: React.FunctionComponent;
     pageProps: any;
@@ -15,25 +17,51 @@ export interface AppProps {
 
 const App: React.FunctionComponent<AppProps> = ({ Component, pageProps }) => {
     const [currentSelect, setCurrentSelect] = React.useState(0);
-    const debounceSelect = useDebounce(currentSelect, 500);
+    const [isScroll, setScroll] = React.useState(true);
+    const scrollBar = React.useRef<HTMLDivElement>();
+    const touch = useTouch();
+    const handleOnScroll = useThrottle((event: WheelEvent) => {
+        if (isScroll)
+            if (event.deltaY > 0) {
+                if (currentSelect < 3) setCurrentSelect(currentSelect + 1);
+            } else {
+                if (currentSelect > 0) setCurrentSelect(currentSelect - 1);
+            }
+    }, 1200);
 
-    function handleOnScroll(event: WheelEvent) {
-        if (event.deltaY > 0) {
-            if (debounceSelect < 3) setCurrentSelect(debounceSelect + 1);
-        } else {
-            if (debounceSelect > 0) setCurrentSelect(debounceSelect - 1);
-        }
+    function handleOnScrollStart() {
+        setScroll(false);
     }
+    function handleOnScrollEnd() {
+        setScroll(true);
+    }
+
+    React.useEffect(() => {
+        if (isScroll)
+            if (touch < -0.5) {
+                if (currentSelect < 3) setCurrentSelect(currentSelect + 1);
+            } else if (touch >= 0.5) {
+                if (currentSelect > 0) setCurrentSelect(currentSelect - 1);
+            }
+    }, [touch]);
 
     const handleOnClick = (index: number) => setCurrentSelect(index);
 
     React.useEffect(() => {
-        window.addEventListener('wheel', handleOnScroll);
+        window.addEventListener('wheel', handleOnScroll, false);
+        if (scrollBar.current) {
+            scrollBar.current.addEventListener('transitionstart', handleOnScrollStart, false);
+            scrollBar.current.addEventListener('transitionend', handleOnScrollEnd, false);
+        }
 
         return () => {
-            window.removeEventListener('wheel', handleOnScroll);
+            window.removeEventListener('wheel', handleOnScroll, false);
+            if (scrollBar.current) {
+                scrollBar.current.removeEventListener('transitionstart', handleOnScrollStart, false);
+                scrollBar.current.removeEventListener('transitionend', handleOnScrollEnd, false);
+            }
         };
-    }, [debounceSelect]);
+    }, [currentSelect, isScroll]);
 
     return (
         <Provider store={store}>
@@ -59,12 +87,12 @@ const App: React.FunctionComponent<AppProps> = ({ Component, pageProps }) => {
 
                 <div
                     className={`hidden btn-scroll lg:block duration-300 transform ${
-                        data.length - 1 === debounceSelect ? 'opacity-0 translate-y-full' : 'opacity-100 translate-y-0'
+                        data.length - 1 === currentSelect ? 'opacity-0 translate-y-full' : 'opacity-100 translate-y-0'
                     } `}
                 >
                     SCROLLDOWN
                 </div>
-                <Component currentSelect={debounceSelect} {...pageProps} />
+                <Component register={scrollBar} handleOnClick={handleOnClick} currentSelect={currentSelect} {...pageProps} />
             </div>
         </Provider>
     );

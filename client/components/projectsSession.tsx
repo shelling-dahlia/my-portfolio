@@ -12,7 +12,7 @@ import ScssIcon from '../public/asset/icons/scss';
 import JQueryIcon from '../public/asset/icons/jquery';
 import MongoDBIcon from '../public/asset/icons/mongodb';
 import ReactIcon from '../public/asset/icons/react';
-import TooltipDropBox from '../components/tooltip';
+import TooltipDropBox from './tooltip';
 
 const NextJSLogo = () => (
     <TooltipDropBox content="NextJS" maxLength={0} position="top-full">
@@ -141,14 +141,17 @@ const data: ProjectInformation[] = [
 
 export interface ProjectsProps {}
 
-const Projects: React.FunctionComponent<ProjectsProps> = () => {
+const ProjectsSession: React.FunctionComponent<ProjectsProps> = () => {
     return (
         <>
             <h1 className="text-2xl font-semibold tracking-wider text-coolGray-50">FEATURED PROJECT</h1>
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
                 {data.map((item, index) => {
                     return (
-                        <div key={item.projectName} className={`rounded-md bg-coolGray-100  flex flex-col ${index !== 0 && 'hidden  lg:block'}`}>
+                        <div
+                            key={item.projectName}
+                            className={`rounded-md bg-coolGray-100 bg-opacity-90  flex flex-col ${index !== 0 && 'hidden  lg:block'}`}
+                        >
                             <div className="relative w-full overflow-hidden h-72 ">
                                 <img className="block object-cover w-full h-full " src={item.imageUrl} alt={item.projectName} />
                                 <div className="absolute top-0 w-full h-full bg-sunset-orange-500 loader-wave"></div>
@@ -214,4 +217,4 @@ const Projects: React.FunctionComponent<ProjectsProps> = () => {
     );
 };
 
-export default Projects;
+export default ProjectsSession;

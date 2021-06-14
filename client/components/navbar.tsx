@@ -18,9 +18,9 @@ interface NavbarItem {
 }
 
 export const data: NavbarItem[] = [
-    { label: 'HOME', color: 'hover:bg-rose-500' },
+    { label: 'ABOUT ME', color: 'hover:bg-rose-500' },
     { color: 'hover:bg-green-700', label: 'PROJECTS' },
-    { color: 'hover:bg-yellow-700', label: 'ABOUT ME' },
+    { color: 'hover:bg-yellow-700', label: 'TECHNICAL SKILLS' },
     { color: 'hover:bg-blue-600', label: 'CONTACT ME' },
 ];
 
@@ -35,8 +35,9 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({ handleOnClick }) => {
         <div className="fixed z-50 flex w-full p-4 md:p-8 text-coolGray-50">
             <div className="z-50 flex items-center justify-between flex-1 ">
                 <Link href="/">
-                    <h1 className="text-xl font-medium tracking-wider duration-300 cursor-pointer hover:text-rose-400">Phạm Vĩnh Nhân</h1>
+                    <h1 className="text-xl font-medium tracking-wider duration-300 cursor-pointer hover:text-rose-400">Pham Vinh Nhan</h1>
                 </Link>
+
                 <div className="flex space-x-16">
                     <div className="hidden space-x-8 md:flex">
                         <a target="__blank" href={socialConfig.github}>
@@ -94,7 +95,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({ handleOnClick }) => {
                         <a target="__blank" href={socialConfig.facebook}>
                             <FacebookIcon />
                         </a>
-                        <a target="__blank" href={socialConfig.gmail}>
+                        <a target="__blank" href={`mailto:${socialConfig.gmail}`}>
                             <GmailIcon />
                         </a>
                         <a target="__blank" href={socialConfig.linkedin}>

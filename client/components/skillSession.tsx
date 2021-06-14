@@ -23,7 +23,7 @@ const data: SkillSet[] = [
     },
     {
         name: 'Devops',
-        skills: ['Docker', 'Github Action', 'Linux'],
+        skills: ['Docker', 'Github Action', 'AWS', 'Linux'],
     },
     {
         name: 'Others',
