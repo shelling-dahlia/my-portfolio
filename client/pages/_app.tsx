@@ -92,6 +92,13 @@ const App: React.FunctionComponent<AppProps> = ({ Component, pageProps }) => {
                 >
                     SCROLLDOWN
                 </div>
+                <div
+                    className={`hidden btn-scroll-2 lg:block duration-300 transform ${
+                        data.length - 1 === currentSelect ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
+                    } `}
+                >
+                    SCROLLTOP
+                </div>
                 <Component register={scrollBar} handleOnClick={handleOnClick} currentSelect={currentSelect} {...pageProps} />
             </div>
         </Provider>

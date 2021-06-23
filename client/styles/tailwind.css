@@ -101,7 +101,18 @@
     letter-spacing: 5px;
 }
 
-.btn-scroll::after {
+.btn-scroll-2 {
+    position: absolute;
+    bottom: 100px;
+    color: #fefefe;
+    right: 3rem;
+    writing-mode: vertical-rl;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.btn-scroll::after,
+.btn-scroll-2::after {
     content: '';
     top: 110%;
     left: 40%;
