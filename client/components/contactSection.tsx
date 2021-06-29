@@ -5,6 +5,7 @@ import { ApiState } from '../api/api.interface';
 import useFormError from '../common/hooks/useFormError';
 import { RootState, store } from '../store';
 import { commonThunk } from '../store/api/thunk';
+import WaveLoading from './loading';
 
 interface ContactForm {
     name: string;
@@ -71,9 +72,12 @@ const ContactSection: React.FunctionComponent<ContactProps> = () => {
                     {Boolean(errors.message.length) && <p className="text-red-500 fade-in">Message {errors.message}</p>}
                 </div>
                 <div>
-                    <button className="inline-block p-2 font-semibold duration-300 bg-red-500 rounded-sm hover:bg-red-600 text-coolGray-50 focus:outline-none">
-                        Submit Message
-                    </button>
+                    {apiState.isLoading && <WaveLoading />}
+                    {!apiState.isLoading && (
+                        <button className="inline-block p-2 font-semibold duration-300 bg-red-500 rounded-sm hover:bg-red-600 text-coolGray-50 focus:outline-none">
+                            Submit Message
+                        </button>
+                    )}
                 </div>
             </form>
         </div>
