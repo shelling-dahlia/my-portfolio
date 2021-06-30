@@ -6,6 +6,7 @@
         "start:dev": "NODE_ENV=development next dev",
         "format": "prettier --write \"./**/*.{js,ts,jsx,tsx}\" ",
         "build": "cross-env GENERATE_SOURCEMAP=false next build",
+        "export": "next build && next export",
         "start": "NODE_ENV=production next start",
         "test": "NODE_ENV=test jest --runInBand --detectOpenHandles --forceExit",
         "test:e2e": "jest --findRelatedTests /test/pagesE2E/ --runInBand --detectOpenHandles --forceExit",
