@@ -153,7 +153,11 @@ const ProjectsSession: React.FunctionComponent<ProjectsProps> = () => {
                             className={`rounded-md bg-coolGray-100 bg-opacity-90  flex flex-col ${index !== 0 && 'hidden  lg:block'}`}
                         >
                             <div className="relative w-full overflow-hidden h-72 ">
-                                <img className="block object-cover w-full h-full " src={item.imageUrl} alt={item.projectName} />
+                                <img
+                                    className="block object-cover w-full h-full "
+                                    src={process.env.BASE_PATH + item.imageUrl}
+                                    alt={item.projectName}
+                                />
                                 <div className="absolute top-0 w-full h-full bg-sunset-orange-500 loader-wave"></div>
                                 <div className="absolute top-0 w-full h-full bg-sunset-orange-500 render-wave"></div>
                                 <div className="absolute top-0 right-0 p-2 font-semibold bg-blue-700 rounded-bl-xl bg-opacity-60 banner-fade-in ">

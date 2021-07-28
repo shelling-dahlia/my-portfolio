@@ -4,6 +4,7 @@ module.exports = {
     basePath: '/portfolio',
     env: {
         SERVER_URL: process.env.SERVER_URL,
+        BASE_PATH: process.env.BASE_PATH,
         DOMAIN: process.env.DOMAIN,
         FB_APP_ID: process.env.FB_APP_ID,
     },
