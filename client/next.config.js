@@ -1,7 +1,6 @@
 require('dotenv').config({ path: `./config/.env.${process.env.NODE_ENV}` });
 
 module.exports = {
-    basePath: '/portfolio',
     env: {
         SERVER_URL: process.env.SERVER_URL,
         BASE_PATH: process.env.BASE_PATH,
