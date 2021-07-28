@@ -2,7 +2,7 @@ name: Node.js CI
 
 on:
         push:
-                branches: deploy
+                branches: [deploy]
 
 jobs:
         build:
@@ -21,7 +21,7 @@ jobs:
                         - name: Installing my packages
                           run: cd client && npm install
 
-                        - run: npm run export
+                        - run: cd client && npm run export
                           env:
                                   NEXT_PUBLIC_BASE_PATH: /portfolio
 
