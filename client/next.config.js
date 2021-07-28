@@ -1,7 +1,7 @@
 require('dotenv').config({ path: `./config/.env.${process.env.NODE_ENV}` });
 
 module.exports = {
-    basePath: process.env.NODE_ENV === 'build' ? '/portfolio' : '/',
+    basePath: '/portfolio',
     env: {
         SERVER_URL: process.env.SERVER_URL,
         DOMAIN: process.env.DOMAIN,
