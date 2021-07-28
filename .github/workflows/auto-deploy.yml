@@ -24,7 +24,7 @@ jobs:
                         - run: cd client && npm run export
                           env:
                                   NEXT_PUBLIC_BASE_PATH: /portfolio
-
+                        - run: touch client/out/.nojekyll
                         - name: Deploy 🚀
                           uses: JamesIves/github-pages-deploy-action@3.5.9
                           env:
