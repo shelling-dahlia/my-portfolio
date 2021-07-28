@@ -28,6 +28,6 @@ jobs:
                         - name: Deploy 🚀
                           uses: JamesIves/github-pages-deploy-action@3.5.9
                           with:
-                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                                  BRANCH: main
+                                  GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
+                                  BRANCH: deploy
                                   FOLDER: client/out
