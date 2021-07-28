@@ -32,4 +32,4 @@ jobs:
                           with:
                                   GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
                                   BRANCH: deploy
-                                  FOLDER: out
+                                  FOLDER: client/out
