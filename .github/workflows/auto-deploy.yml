@@ -31,5 +31,5 @@ jobs:
                                   ACTIONS_ALLOW_UNSECURE_COMMANDS: "true"
                           with:
                                   GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
-                                  BRANCH: deploy
+                                  BRANCH: gh-pages
                                   FOLDER: client/out
