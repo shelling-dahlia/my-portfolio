@@ -6,7 +6,6 @@ import '../styles/tailwind.css';
 import { store } from '../store';
 
 import Navbar from '../components/navbar';
-import { useDebounce } from '../common/hooks/useDebounce';
 import { data } from '../components/navbar';
 import { useThrottle } from '../common/hooks/useThrottle';
 import { useTouch } from '../common/hooks/useTouch';

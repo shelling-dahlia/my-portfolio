@@ -42,7 +42,7 @@ const ProfileSection: React.FunctionComponent<ProfileProps> = ({ handleOnClick }
                 <div className="relative inline-block overflow-hidden rounded-lg bg-gradient-to-r from-green-600 via-red-600 w-96 h-96 fade-in">
                     <img
                         className="block object-cover h-full transform translate-y-8 rounded-lg w-80"
-                        src={`${process.env.BASE_PATH}/asset/images/avatar.jpg`}
+                        src="/asset/images/avatar.jpg"
                         alt="My Chess Project"
                     />
                 </div>
