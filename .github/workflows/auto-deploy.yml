@@ -2,7 +2,7 @@ name: Node.js CI
 
 on:
         push:
-                branches: [deploy]
+                branches: [master]
 
 jobs:
         build:
@@ -32,4 +32,4 @@ jobs:
                           with:
                                   GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
                                   BRANCH: deploy
-                                  FOLDER: client/out
+                                  FOLDER: /
