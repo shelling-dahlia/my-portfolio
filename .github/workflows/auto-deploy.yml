@@ -27,6 +27,8 @@ jobs:
 
                         - name: Deploy 🚀
                           uses: JamesIves/github-pages-deploy-action@3.5.9
+                          env:
+                                  ACTIONS_ALLOW_UNSECURE_COMMANDS: "true"
                           with:
                                   GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
                                   BRANCH: deploy
