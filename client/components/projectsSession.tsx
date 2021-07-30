@@ -96,6 +96,7 @@ interface ProjectInformation {
     longDescription: string;
     imageUrl: string;
     link: string;
+    teamSize: number;
 }
 
 const data: ProjectInformation[] = [
@@ -108,7 +109,7 @@ const data: ProjectInformation[] = [
         shortDescription: 'An Online Chess Board Project',
         backend: [NestJSLogo, MysqlLogo, RedisLogo, SocketLogo],
         frontend: [NextJSLogo, ReduxLogo, TailwindLogo],
-
+        teamSize: 3,
         longDescription:
             'My chess is an online web games allow people can play chess or tic tac toe and share their happiness across the world. This website is inspired by Chess.com and Steam.',
     },
@@ -121,7 +122,7 @@ const data: ProjectInformation[] = [
         shortDescription: 'Picking Tool For Developer',
         backend: [ExpressLogo, MongodbLogo],
         frontend: [ReactLogo],
-
+        teamSize: 1,
         longDescription:
             'A small tool for picking up your notes or palettes quickly and easily, Notespicker can handle multiple notes and reminders at the same time. This is also a big update for my colors-picker project',
     },
@@ -134,6 +135,7 @@ const data: ProjectInformation[] = [
         shortDescription: 'Vietnamese Restaurant',
         backend: [ExpressLogo],
         frontend: [EJSLogo, JQueryLogo, SCSSLogo],
+        teamSize: 1,
         longDescription:
             'The Hood is not simply one group. The Hood represents a group of new generation who devote and dedicate their youth to work, play and love.',
     },
@@ -191,8 +193,14 @@ const ProjectsSession: React.FunctionComponent<ProjectsProps> = () => {
                                         ))}
                                     </span>
                                 </div>
+                                <div className="flex items-center space-x-2">
+                                    <span className="text-lg font-semibold">Team Size:</span>
+                                    <span className="flex space-x-2">
+                                        <p className="font-semibold ">{item.teamSize}</p>
+                                    </span>
+                                </div>
 
-                                <p>{item.longDescription}</p>
+                                <p className="hidden md:block">{item.longDescription}</p>
 
                                 <a
                                     href={`${item.link}`}

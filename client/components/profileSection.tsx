@@ -24,14 +24,14 @@ const ProfileSection: React.FunctionComponent<ProfileProps> = ({ handleOnClick }
                 <div className="text-lg text-coolGray-400">
                     <p className="max-w-lg">
                         Highly adaptable, problem solver loves building programs more productive and flexible. I love to build website that helps
-                        people solve problem.
+                        people solving problem.
                     </p>
                 </div>
 
                 <div>
                     <button
                         onClick={() => handleOnClick(3)}
-                        className="px-8 py-4 text-lg font-semibold duration-200 bg-red-500 focus:border-none text-coolGray-50 rounded-xl hover:bg-red-600 focus:outline-none "
+                        className="px-4 py-2 text-base font-semibold duration-200 bg-red-500 rounded-md md:text-lg md:py-4 md:px-6 focus:border-none text-coolGray-50 md:rounded-xl hover:bg-red-600 focus:outline-none"
                     >
                         Get In Touch
                     </button>
@@ -39,9 +39,9 @@ const ProfileSection: React.FunctionComponent<ProfileProps> = ({ handleOnClick }
             </div>
 
             <div className="flex-1 md:text-right">
-                <div className="relative inline-block overflow-hidden rounded-lg bg-gradient-to-r from-green-600 via-red-600 w-96 h-96 fade-in">
+                <div className="relative inline-block overflow-hidden rounded-lg bg-gradient-to-r from-green-600 via-red-600 md:w-96 md:h-96 fade-in">
                     <img
-                        className="block object-cover h-full transform translate-y-8 rounded-lg w-80"
+                        className="block object-cover w-64 h-full transform translate-y-4 rounded-lg md:translate-y-8 md:w-80"
                         src="/asset/images/avatar.jpg"
                         alt="My Chess Project"
                     />

@@ -35,7 +35,9 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({ handleOnClick }) => {
         <div className="fixed z-50 flex w-full p-4 md:p-8 text-coolGray-50">
             <div className="z-50 flex items-center justify-between flex-1 ">
                 <Link href="/">
-                    <h1 className="text-xl font-medium tracking-wider duration-300 cursor-pointer hover:text-rose-400">Pham Vinh Nhan</h1>
+                    <h1 className="text-xl font-medium tracking-wider duration-300 opacity-0 cursor-pointer hover:text-rose-400 lg:opacity-100">
+                        Pham Vinh Nhan
+                    </h1>
                 </Link>
 
                 <div className="flex space-x-16">

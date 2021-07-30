@@ -50,6 +50,7 @@ const ContactSection: React.FunctionComponent<ContactProps> = () => {
                     <input
                         className="block w-full outline-none rounded-sm bg-tuna py-2 px-1.5 border border-gray-600 border-opacity-70"
                         {...register('name')}
+                        placeholder=""
                     />
                     {Boolean(errors.name.length) && <p className="text-red-500 fade-in">Full Name {errors.message}</p>}
                 </div>
