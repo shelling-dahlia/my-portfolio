@@ -9,7 +9,7 @@ const config: Record<TRouters, IRouter> = {
     home: {
         link: '/',
         header: {
-            title: 'Pham Vinh Nhan',
+            title: '',
             canonical: '/',
             description: 'My Personal Portfolio',
             isIndexPage: true,
@@ -18,7 +18,7 @@ const config: Record<TRouters, IRouter> = {
     '404': {
         link: '/404',
         header: {
-            title: 'Pham Vinh Nhan',
+            title: '',
             canonical: '/404',
             description: 'Page Not Found',
         },
