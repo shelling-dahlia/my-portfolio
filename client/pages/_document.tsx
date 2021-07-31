@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    {/* <link rel="apple-touch-icon" sizes="57x57" href="/asset/share/apple-icon-57x57.png" />
+                    <link rel="apple-touch-icon" sizes="57x57" href="/asset/share/apple-icon-57x57.png" />
                     <link rel="apple-touch-icon" sizes="60x60" href="/asset/share/apple-icon-60x60.png" />
                     <link rel="apple-touch-icon" sizes="72x72" href="/asset/share/apple-icon-72x72.png" />
                     <link rel="apple-touch-icon" sizes="76x76" href="/asset/share/apple-icon-76x76.png" />
@@ -26,8 +26,6 @@ export default class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#ffffff" />
                     <meta name="msapplication-TileImage" content="/asset/share/ms-icon-144x144.png" />
                     <meta name="theme-color" content="#ffffff" />
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Q1XL029H8"></script>
-                    <script src="/static/google.js"></script> */}
                 </Head>
 
                 <body className="preload">

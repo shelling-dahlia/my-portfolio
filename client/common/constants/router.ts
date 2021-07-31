@@ -9,7 +9,7 @@ const config: Record<TRouters, IRouter> = {
     home: {
         link: '/',
         header: {
-            title: '',
+            title: 'Lâm Tâm Như | Portfolio',
             canonical: '/',
             description: 'My Personal Portfolio',
             isIndexPage: true,

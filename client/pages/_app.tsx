@@ -13,7 +13,7 @@ export interface AppProps {
 const App: React.FunctionComponent<AppProps> = ({ Component, pageProps }) => {
     return (
         <Provider store={store}>
-            <div className="relative flex flex-col min-h-screen overflow-hidden bg-container">hello there</div>
+            <Component {...pageProps} />
         </Provider>
     );
 };
