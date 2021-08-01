@@ -5,7 +5,7 @@ export interface ContactProps {}
 const Contact: React.FunctionComponent<ContactProps> = () => {
     return (
         <div className="px-2 py-8 bg-macaroni-and-cheese-500">
-            <form className="w-2/5 mx-auto space-y-2">
+            <form className="md:w-2/5 mx-auto space-y-2">
                 <h1 className="text-2xl text-center text-yellow-800 font ">GET IN TOUCH</h1>
                 {/* <p className="font-semibold text-green-500">Go21321321321321321321321od</p> */}
                 <div className="justify-between space-y-2 md:space-x-4 md:flex md:space-y-0">
