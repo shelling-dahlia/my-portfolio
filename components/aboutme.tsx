@@ -35,7 +35,7 @@ const AboutMe: React.FunctionComponent<AboutMeProps> = () => {
                             <img src="/images/degree.png" alt="" width="24" height="24" /> Degree: Undergraduate
                         </li>
                         <li className="flex items-center gap-1">
-                            <img src="/images/email.png" alt="" width="24" height="24" /> Email: tamnhulam94ls@gmail.com
+                            <img src="/images/email.png" alt="" width="24" height="24" /> Email: tamnhu.dahlia@gmail.com
                         </li>
                         <li className="flex items-center gap-1">
                             <img src="/images/major.png" alt="" width="24" height="24" /> Major: Front-end Developer, UI designer

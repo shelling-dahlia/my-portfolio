@@ -24,7 +24,7 @@ const Banner: React.FunctionComponent<BannerProps> = () => {
                         </div>
                     </div>
                     <div className="hidden space-y-4 lg:block">
-                        <a href="https://www.linkedin.com/in/t%C3%A2m-nh%C6%B0-l%C3%A2m-0ab792218/" className="block" target="__blank">
+                        <a href="https://www.linkedin.com/in/shelling-dahlia/" className="block" target="__blank">
                             <LinkedinLogo />
                         </a>
                         <a href="https://github.com/shelling94" target="__blank" className="block">

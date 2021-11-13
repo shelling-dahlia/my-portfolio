@@ -14,7 +14,7 @@ const Footer: React.FunctionComponent<FooterProps> = () => {
                 <a href="https://www.facebook.com/ltnhu.shelling" target="__blank">
                     <FacebookIcons />
                 </a>
-                <a href="mailto: tamnhulam94ls@gmail.com">
+                <a href="mailto: tamnhu.dahlia@gmail.com">
                     <GmailIcons />
                 </a>
                 <a href="tel:+84901951454">
@@ -23,7 +23,7 @@ const Footer: React.FunctionComponent<FooterProps> = () => {
                 <a href="https://goo.gl/maps/VD5Lfb5VQwJwkFLf7" target="__blank">
                     <LocationIcons />
                 </a>
-                <a href="https://www.linkedin.com/in/t%C3%A2m-nh%C6%B0-l%C3%A2m-0ab792218/" target="__blank">
+                <a href="https://www.linkedin.com/in/shelling-dahlia/" target="__blank">
                     <LinkedinIcons />
                 </a>
             </div>
