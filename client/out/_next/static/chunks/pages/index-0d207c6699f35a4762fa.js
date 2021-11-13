@@ -1,1 +1,901 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[7],{"/0+H":function(e,t,n){"use strict";t.__esModule=!0,t.isInAmpMode=o,t.useAmp=function(){return o(r.default.useContext(c.AmpStateContext))};var a,r=(a=n("q1tI"))&&a.__esModule?a:{default:a},c=n("lwAK");function o(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},t=e.ampFirst,n=void 0!==t&&t,a=e.hybrid,r=void 0!==a&&a,c=e.hasQuery,o=void 0!==c&&c;return n||r&&o}},"/EDR":function(e,t,n){(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){return n("23aj")}])},"23aj":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),c=n("YFqc"),o=n.n(c),i=r.a.createElement;var l=function(){return i("svg",{xmlns:"http://www.w3.org/2000/svg",width:"113",height:"70",fill:"none",viewBox:"0 0 113 70"},i("path",{fill:"#DC3545",d:"M1.16 37.982c-.099.033-.164 0-.197-.098a.571.571 0 01-.098-.147c-.065-.098-.081-.18-.049-.245.392-2.32 1.225-4.377 2.5-6.174 1.273-1.83 2.89-3.43 4.85-4.802 1.895-1.372 4.05-2.613 6.468-3.724a63.622 63.622 0 017.546-2.989 122.72 122.72 0 005.537-1.862 63.388 63.388 0 005.44-2.352l.98-3.626c.359-1.209.767-2.385 1.224-3.528a22.872 22.872 0 011.715-3.332 14.044 14.044 0 012.45-2.989c.229-.229.49-.457.784-.686.327-.261.67-.474 1.03-.637.391-.163.8-.261 1.224-.294.458-.033.948.049 1.47.245.62.229 1.078.523 1.372.882.294.36.474.751.54 1.176 0 .327-.017.653-.05.98a6.284 6.284 0 01-.147.833c-.36 1.241-.8 2.32-1.323 3.234a12.775 12.775 0 01-1.715 2.401c-.62.686-1.34 1.323-2.156 1.911a31.177 31.177 0 01-2.646 1.666 150.987 150.987 0 00-2.009 7.154 102.078 102.078 0 01-1.96 6.762 45.13 45.13 0 01-2.646 6.37c-1.012 2.025-2.335 3.985-3.969 5.88a7.809 7.809 0 01-1.715 1.519 9.123 9.123 0 01-2.205 1.029 7.903 7.903 0 01-2.499.49 7.883 7.883 0 01-2.597-.245c-.98-.261-1.813-.67-2.499-1.225a9.368 9.368 0 01-1.715-1.911 8.97 8.97 0 01-1.029-2.205c-.228-.784-.343-1.486-.343-2.107 0-1.176.147-2.368.441-3.577a14.35 14.35 0 011.421-3.43 12.401 12.401 0 012.352-2.842 8.455 8.455 0 013.185-1.862c.392-.13.866-.196 1.421-.196.523 0 .997.082 1.421.245.458.13.817.376 1.078.735.164.327.18.719.05 1.176-.131.425-.376.67-.736.735-.326.065-.588.065-.784 0-.196-.065-.31-.261-.343-.588 0-.261.05-.49.147-.686.098-.196.115-.376.05-.539-1.046-.261-1.993-.212-2.843.147a6.529 6.529 0 00-2.205 1.47 9.8 9.8 0 00-1.617 2.156c-.457.817-.85 1.584-1.176 2.303-.36.85-.62 1.78-.784 2.793-.13.98-.13 1.944 0 2.891.196 1.209.62 2.27 1.274 3.185.654.882 1.6 1.535 2.842 1.96 1.438.457 2.777.506 4.018.147 1.242-.392 2.205-1.013 2.891-1.862 1.144-1.405 2.107-3.022 2.891-4.851a51.835 51.835 0 002.058-5.88 119.027 119.027 0 001.617-6.321c.49-2.156 1.013-4.247 1.568-6.272a45.53 45.53 0 01-4.753 1.96l-4.704 1.666c-1.568.523-3.12 1.078-4.655 1.666a39.18 39.18 0 00-4.508 1.96 28.257 28.257 0 00-4.508 2.597 22.698 22.698 0 00-3.92 3.283 17.345 17.345 0 00-2.89 3.92A12.168 12.168 0 001.6 37.688a.332.332 0 00-.098.245c-.032.098-.147.114-.343.049zM41.877 2.555a7.76 7.76 0 00-1.568 2.254c-.36.85-.67 1.731-.93 2.646a70.06 70.06 0 00-.638 2.793 21.631 21.631 0 01-.735 2.695 11.86 11.86 0 002.99-2.156c.881-.85 1.698-1.862 2.45-3.038.195-.327.408-.751.636-1.274.262-.555.474-1.11.637-1.666a6.08 6.08 0 00.245-1.617c0-.49-.13-.882-.392-1.176-.196-.261-.555-.36-1.078-.294-.522.033-1.061.31-1.617.833z"}),i("path",{fill:"#000",d:"M54.03 2.065c-.23 2.679-.818 5.178-1.765 7.497a50.143 50.143 0 01-3.332 6.615 134.218 134.218 0 01-3.969 6.223 57.517 57.517 0 00-3.675 6.223c.392-.229.768-.49 1.127-.784.36-.294.719-.555 1.078-.784.392-.229.8-.408 1.225-.539.425-.13.915-.147 1.47-.049.49.229.866.539 1.127.931.261.36.425.768.49 1.225.098.457.13.931.098 1.421-.033.457-.065.898-.098 1.323-.163.915-.36 1.862-.588 2.842-.229.947-.457 1.878-.686 2.793-.196.915-.36 1.797-.49 2.646-.13.817-.196 1.568-.196 2.254.065.065.13.098.196.098.098-.033.18-.065.245-.098a29.003 29.003 0 002.597-5.243c.719-1.83 1.454-3.61 2.205-5.341.13-.196.212-.343.245-.441.065-.13.229-.196.49-.196.229.196.376.31.441.343.065.033.033.147-.098.343a40.052 40.052 0 00-1.715 3.871 60.43 60.43 0 01-1.617 4.018c-.555 1.241-1.143 2.287-1.764 3.136-.62.85-1.29 1.274-2.009 1.274a2.94 2.94 0 01-1.813-.588c-.49-.36-.702-.817-.637-1.372.065-1.11.196-2.14.392-3.087.229-.98.474-1.944.735-2.891.261-.947.523-1.927.784-2.94.294-1.013.54-2.14.735-3.381 0-.098.016-.261.05-.49a2.084 2.084 0 000-.637c-.034-.229-.083-.392-.148-.49-.065-.13-.196-.147-.392-.049a5.561 5.561 0 00-1.764 1.176c-.49.49-1.013.996-1.568 1.519a14.619 14.619 0 00-1.764 2.94 78.492 78.492 0 00-1.323 3.332c-.392 1.143-.8 2.27-1.225 3.381a19.881 19.881 0 01-1.519 3.136c-.229.163-.44.229-.637.196-.229 0-.44-.033-.637-.098-.523-.13-.85-.523-.98-1.176.065 0 .065-.033 0-.098-.065-.033-.082-.065-.049-.098a468.836 468.836 0 002.891-8.967c.882-2.973 1.797-5.88 2.744-8.722.98-2.875 2.01-5.684 3.087-8.428a89.566 89.566 0 013.724-8.036 16.44 16.44 0 011.225-1.862 16.882 16.882 0 011.568-1.813 13.928 13.928 0 011.862-1.568 7.81 7.81 0 012.01-1.029c.424-.163.8-.147 1.126.049.36.196.523.36.49.49zm-1.226.245c-.261-.033-.572.13-.93.49-.328.327-.67.719-1.03 1.176-.36.457-.686.915-.98 1.372-.294.425-.49.719-.588.882a35.813 35.813 0 00-1.96 4.214 71.551 71.551 0 00-1.519 4.459 190.65 190.65 0 00-1.274 4.263 74.767 74.767 0 01-1.029 3.528 62.142 62.142 0 003.283-4.655 48.225 48.225 0 002.891-4.998 44.615 44.615 0 002.254-5.194 25.587 25.587 0 001.372-5.145c.065-.13.033-.229-.098-.294-.13-.098-.261-.13-.392-.098zm7.912 28.567c.228 0 .343.049.343.147 0 .065-.017.18-.05.343a196.23 196.23 0 01-1.665 4.263 35.58 35.58 0 01-1.715 3.675c-.588 1.045-1.193 1.895-1.813 2.548-.588.653-1.209 1.013-1.862 1.078-.752.065-1.438-.065-2.058-.392a4.667 4.667 0 01-1.617-1.274 7.147 7.147 0 01-1.078-1.96 6.822 6.822 0 01-.392-2.254c0-1.47.261-2.94.784-4.41.522-1.47 1.176-2.793 1.96-3.969.261-.36.588-.719.98-1.078.424-.36.865-.637 1.323-.833.457-.229.93-.36 1.42-.392.49-.033.948.098 1.373.392.294.261.522.702.686 1.323.065.457.065.931 0 1.421-.066.49-.18.915-.343 1.274-.49 1.34-1.193 2.483-2.107 3.43a40.212 40.212 0 01-2.793 2.548v1.225c.032.425.081.866.147 1.323.065.719.261 1.34.588 1.862.359.49.882.653 1.568.49.522-.13 1.029-.555 1.519-1.274.522-.751 1.012-1.633 1.47-2.646a48.04 48.04 0 001.372-3.234c.424-1.143.816-2.189 1.176-3.136 0-.163.098-.294.294-.392.196-.13.359-.163.49-.098zm-4.851-3.234c-.098-.098-.343.13-.735.686-.36.555-.735 1.258-1.127 2.107a21.847 21.847 0 00-1.03 2.548c-.293.882-.44 1.584-.44 2.107.424-.163.93-.572 1.519-1.225a9.68 9.68 0 001.47-2.156c.424-.784.702-1.552.833-2.303.13-.784-.033-1.372-.49-1.764zM72.677 5.985c.424-.327.849-.49 1.274-.49.392 0 .751.13 1.078.392.359.261.522.67.49 1.225-.033 1.503-.441 3.185-1.225 5.047-.784 1.83-1.78 3.724-2.99 5.684a76.561 76.561 0 01-3.92 5.88 191.644 191.644 0 01-4.066 5.39 79.433 79.433 0 01-.686 2.548c-.229.882-.441 1.78-.637 2.695a27.2 27.2 0 00-.441 2.695 10.648 10.648 0 000 2.499c.065.36.13.702.196 1.029.065.327.18.67.343 1.029.196.327.392.49.588.49.228 0 .424-.114.588-.343.424-.49.865-1.16 1.323-2.009.49-.882.963-1.813 1.42-2.793.458-1.013.899-2.009 1.324-2.989a43.655 43.655 0 011.176-2.597c.032-.098.098-.245.196-.441s.277-.245.539-.147c.196.065.294.163.294.294.032.13.016.229-.05.294-.326.555-.669 1.258-1.028 2.107-.327.817-.686 1.682-1.078 2.597s-.8 1.813-1.225 2.695a13.392 13.392 0 01-1.323 2.352c-.458.686-.948 1.209-1.47 1.568-.523.392-1.078.539-1.666.441a4.068 4.068 0 01-1.96-1.029c-.556-.49-.931-1.192-1.127-2.107-.327-1.437-.409-2.94-.245-4.508.13-1.568.408-3.152.833-4.753.392-1.633.898-3.25 1.519-4.851.62-1.633 1.257-3.234 1.91-4.802 1.242-2.973 2.647-5.733 4.215-8.281a29.152 29.152 0 015.83-6.811zm2.009 1.764a1.82 1.82 0 00.049-.441 2.75 2.75 0 00-.05-.539.458.458 0 00-.244-.343c-.098-.098-.245-.13-.441-.098-.327-.033-.605.147-.833.539-.229.392-.425.719-.588.98a78.717 78.717 0 00-4.9 9.212c-1.34 3.038-2.614 6.337-3.822 9.898a147.155 147.155 0 003.185-4.312 69.986 69.986 0 003.038-4.606c.947-1.6 1.813-3.25 2.597-4.949a40.018 40.018 0 002.009-5.341zm6.891-1.764c.425-.327.85-.49 1.274-.49.392 0 .751.13 1.078.392.36.261.523.67.49 1.225-.033 1.503-.441 3.185-1.225 5.047-.784 1.83-1.78 3.724-2.989 5.684a76.561 76.561 0 01-3.92 5.88 191.644 191.644 0 01-4.067 5.39 79.433 79.433 0 01-.686 2.548c-.229.882-.441 1.78-.637 2.695a27.2 27.2 0 00-.441 2.695 10.648 10.648 0 000 2.499c.065.36.13.702.196 1.029.065.327.18.67.343 1.029.196.327.392.49.588.49.229 0 .425-.114.588-.343.425-.49.866-1.16 1.323-2.009.49-.882.964-1.813 1.421-2.793.457-1.013.898-2.009 1.323-2.989a43.655 43.655 0 011.176-2.597c.033-.098.098-.245.196-.441s.278-.245.539-.147c.196.065.294.163.294.294.033.13.016.229-.049.294-.327.555-.67 1.258-1.029 2.107-.327.817-.686 1.682-1.078 2.597s-.8 1.813-1.225 2.695a13.392 13.392 0 01-1.323 2.352c-.457.686-.947 1.209-1.47 1.568-.523.392-1.078.539-1.666.441a4.068 4.068 0 01-1.96-1.029c-.555-.49-.931-1.192-1.127-2.107-.327-1.437-.408-2.94-.245-4.508.13-1.568.408-3.152.833-4.753.392-1.633.898-3.25 1.519-4.851.62-1.633 1.258-3.234 1.911-4.802 1.241-2.973 2.646-5.733 4.214-8.281a29.152 29.152 0 015.831-6.811zm2.009 1.764a1.82 1.82 0 00.049-.441 2.75 2.75 0 00-.049-.539.458.458 0 00-.245-.343c-.098-.098-.245-.13-.441-.098-.327-.033-.604.147-.833.539-.229.392-.425.719-.588.98a78.717 78.717 0 00-4.9 9.212c-1.34 3.038-2.613 6.337-3.822 9.898a147.155 147.155 0 003.185-4.312 69.986 69.986 0 003.038-4.606c.947-1.6 1.813-3.25 2.597-4.949a40.018 40.018 0 002.009-5.341zm1.128 23.03c-.229 0-.36.033-.392.098 0 .065-.082.229-.245.49a66.662 66.662 0 01-2.01 4.802 61.682 61.682 0 01-2.302 4.459c-.066.098-.18.261-.343.49-.13.196-.294.376-.49.539a1.375 1.375 0 01-.54.343c-.195.033-.358-.082-.49-.343.23-1.764.49-3.152.785-4.165.326-1.013.653-1.927.98-2.744.36-.85.702-1.715 1.029-2.597.36-.915.67-2.14.93-3.675.033-.36.033-.735 0-1.127 0-.425-.31-.719-.93-.882-.294-.065-.686-.098-1.176-.098-.49-.033-.817.049-.98.245a116.23 116.23 0 00-.294 1.862c-.066.62-.294 1.356-.686 2.205a67.332 67.332 0 01-.833 2.352 22.48 22.48 0 00-.833 2.352c-.262.784-.458 1.6-.588 2.45-.13.85-.147 1.748-.05 2.695.066.686.311 1.29.736 1.813.392.555.833.98 1.323 1.274.228.098.457.13.686.098.228-.033.44-.114.637-.245.196-.13.375-.278.539-.441.196-.13.36-.261.49-.392a30.519 30.519 0 003.087-5.488 152.48 152.48 0 002.352-5.782.805.805 0 00-.05-.245.592.592 0 00-.342-.343zm-3.97-10.192c.164.13.328.36.49.686.164.327.213.588.148.784-.066.85-.278 1.372-.637 1.568-.327.163-.752.18-1.274.049-.294-.065-.523-.31-.686-.735a2.356 2.356 0 01.049-1.421c.163-.36.408-.67.735-.931.36-.261.751-.261 1.176 0zm18.08 10.78c.033 0 .05-.033.05-.098l.098-.294a.74.74 0 01.245-.294c.098-.065.228-.065.392 0 .13.065.212.163.245.294.065.13.065.229 0 .294a534.746 534.746 0 00-1.764 4.165 65.478 65.478 0 01-1.862 4.165 55.947 55.947 0 01-2.156 4.165 34.515 34.515 0 01-2.695 4.018c-.164.163-.376.31-.637.441-.262.163-.523.212-.784.147-.523-.163-.915-.441-1.176-.833a3.137 3.137 0 01-.49-1.372c-.098-.817-.066-1.535.098-2.156.196-1.405.522-2.989.98-4.753.49-1.797.963-3.479 1.42-5.047.49-1.6.899-2.956 1.226-4.067.326-1.11.424-1.699.294-1.764-.556-.229-1.046-.245-1.47-.049a3.04 3.04 0 00-1.078.784c-.327.36-.621.768-.882 1.225-.229.457-.458.85-.686 1.176a15.386 15.386 0 00-1.421 2.597 34.236 34.236 0 00-1.078 2.744l-.98 2.842a28.628 28.628 0 01-1.03 2.793c-.163.065-.359.147-.587.245-.229.098-.523.114-.882.049a3.903 3.903 0 01-.98-.588c-.36-.261-.54-.588-.54-.98.621-1.34 1.144-2.842 1.569-4.508.392-1.666.767-3.169 1.127-4.508.098-.425.147-.833.147-1.225V29.75c.032-.392.065-.751.098-1.078.065-.36.18-.686.343-.98.522-.13 1.16-.196 1.91-.196.589.392.932.996 1.03 1.813.032.261.049.523.049.784.032.229.065.474.098.735.294-.261.571-.604.833-1.029.294-.425.604-.833.93-1.225a4.63 4.63 0 011.177-1.078c.457-.327 1.012-.506 1.666-.539 1.012-.065 1.747.147 2.205.637.457.49.718 1.11.784 1.862.065.457.065.931 0 1.421-.033.49-.082.964-.147 1.421-.066.457-.147.882-.245 1.274-.066.36-.115.637-.147.833-.164.947-.36 1.862-.588 2.744a77.668 77.668 0 01-.637 2.646c-.196.882-.409 1.78-.637 2.695a25.758 25.758 0 00-.54 2.842c.72-.98 1.422-2.09 2.108-3.332a82.433 82.433 0 001.96-3.773 90.661 90.661 0 001.715-3.724c.522-1.209.963-2.254 1.323-3.136zm13.087 0c.163-.261.343-.49.539-.686.196-.196.375-.13.539.196a.796.796 0 00-.049.245c.032.065.016.147-.049.245a51.249 51.249 0 01-3.479 6.076c-1.307 1.927-2.973 3.577-4.998 4.949a92.586 92.586 0 00-1.862 4.802 463.142 463.142 0 00-1.862 5.292 489.598 489.598 0 01-1.862 5.292 56.298 56.298 0 01-1.96 4.802c-.719 1.503-1.454 2.81-2.205 3.92-.784 1.143-1.601 1.993-2.45 2.548-.36.261-.735.457-1.127.588a3.655 3.655 0 01-1.323.245c-.556 0-1.046-.13-1.47-.392-.556-.294-.964-.686-1.225-1.176a3.952 3.952 0 01-.54-1.617 2.344 2.344 0 01-.048-.833c0-.294.016-.588.049-.882a17.306 17.306 0 012.303-6.517 33.22 33.22 0 014.116-5.635l3.675-3.577a211.321 211.321 0 003.822-3.822c.13-.653.294-1.274.49-1.862.196-.588.359-1.192.49-1.813-.131.163-.392.31-.784.441-.36.13-.768.196-1.225.196-.327 0-.654-.049-.98-.147a2.154 2.154 0 01-.882-.392c-.36-.392-.67-.85-.931-1.372a4.866 4.866 0 01-.49-1.617c-.196-1.372-.017-2.793.539-4.263.522-1.47 1.16-2.728 1.91-3.773.425-.62.915-1.274 1.471-1.96a13.834 13.834 0 011.862-1.813 8.13 8.13 0 012.156-1.274 4.16 4.16 0 012.352-.196c.392.098.735.343 1.029.735.326.392.49.768.49 1.127.359.065.669.049.931-.049.261-.13.522-.114.784.049.098.36.114.653.049.882a190.166 190.166 0 01-2.058 6.027 108.378 108.378 0 01-2.45 6.076c1.502-1.143 2.744-2.466 3.724-3.969a60.284 60.284 0 002.989-5.096zM92.948 64.981a84.96 84.96 0 003.773-8.624 91.205 91.205 0 002.793-9.065 221.847 221.847 0 01-3.97 4.067 48.047 48.047 0 00-3.87 4.361 27.113 27.113 0 00-2.94 4.753 11.764 11.764 0 00-1.225 5.243 4.61 4.61 0 00.343 1.96c.228.686.653 1.045 1.274 1.078.326 0 .67-.114 1.029-.343.359-.196.718-.49 1.078-.882.326-.36.637-.768.93-1.225.295-.425.556-.866.785-1.323zm11.711-30.625c.098-.196.245-.572.441-1.127.228-.555.457-1.16.686-1.813.261-.686.49-1.356.686-2.009.196-.686.294-1.241.294-1.666.065-.62-.049-1.013-.343-1.176-.262-.163-.654-.13-1.176.098-.425.196-.833.523-1.225.98-.36.425-.719.931-1.078 1.519a18.68 18.68 0 00-.931 1.813c-.294.62-.556 1.209-.784 1.764a93.276 93.276 0 01-1.421 3.332c-.425 1.013-.67 2.14-.735 3.381 0 .392.163.735.49 1.029.359.294.718.278 1.078-.049.62-.392 1.11-.768 1.47-1.127.359-.392.669-.817.931-1.274.261-.457.506-.98.735-1.568.228-.588.522-1.29.882-2.107z"}))},s=a.createElement,u=function(){return s("div",null,s("div",{className:"flex flex-col items-center justify-center p-2 pt-4 space-y-2 md:mx-auto md:w-4/5 md:justify-between md:flex-row"},s(o.a,{href:"/"},s(l,null)),s("div",null,s("ul",{className:"flex space-x-4 font-semibold md:text-lg md:space-x-12"},s("li",{className:"duration-300 hover:text-punch-500"},s(o.a,{href:"/"},"Home")),s("li",{className:"duration-300 hover:text-punch-500"},s(o.a,{href:"/"},"About")),s("li",{className:"duration-300 hover:text-punch-500"},s(o.a,{href:"/"},"Blog")),s("li",{className:"duration-300 hover:text-punch-500"},s("a",{href:"https://github.com/shelling94",target:"__blank"},"Repository")),s("li",{className:"duration-300 hover:text-punch-500"},s(o.a,{href:"/"},"Contact"))))))},f=r.a.createElement;var d=function(){return f("svg",{xmlns:"http://www.w3.org/2000/svg",width:"48",height:"48",fill:"none",viewBox:"0 0 48 48"},f("path",{fill:"#000",d:"M19.316 19.018c0-2.264-1.54-2.264-1.54-2.264h-6.338v4.858h5.945c1.027 0 1.933-.329 1.933-2.594zM17.776 24.968h-6.338v5.819h6.046c.91-.026 2.588-.311 2.588-2.829 0-3.02-2.296-2.99-2.296-2.99zM34.002 21.611c-3.364 0-3.832 3.357-3.832 3.357h7.152s.043-3.357-3.32-3.357z"}),f("path",{fill:"#000",d:"M24 0C10.745 0 0 10.746 0 24s10.745 24 24 24 24-10.746 24-24S37.255 0 24 0zm5.233 14.166h8.983v2.68h-8.983v-2.68zm-4.54 14.062c0 6.646-6.917 6.427-6.917 6.427H6.446V12.883h11.33c3.443 0 6.161 1.901 6.161 5.797s-3.322 4.143-3.322 4.143c4.38 0 4.077 5.405 4.077 5.405zm9.351 3.434c3.62 0 3.491-2.342 3.491-2.342h3.832c0 6.216-7.45 5.79-7.45 5.79-8.94 0-8.366-8.323-8.366-8.323s-.007-8.364 8.365-8.364c8.813 0 7.579 9.45 7.579 9.45H30.213c0 4.046 3.831 3.79 3.831 3.79z"}))},m=r.a.createElement;var p=function(){return m("svg",{xmlns:"http://www.w3.org/2000/svg",width:"48",height:"48",fill:"none",viewBox:"0 0 48 48"},m("path",{fill:"#000",d:"M44.78 12.54c-2.146-3.677-5.057-6.588-8.734-8.734C32.37 1.66 28.354.587 24 .587c-4.355 0-8.37 1.073-12.047 3.219-3.677 2.146-6.588 5.057-8.734 8.734C1.073 16.217 0 20.233 0 24.586c0 5.23 1.526 9.932 4.578 14.11 3.052 4.176 6.995 7.067 11.828 8.67.562.105.979.032 1.25-.218.27-.25.406-.562.406-.937l-.016-1.687c-.01-1.063-.016-1.99-.016-2.781l-.719.124c-.458.084-1.036.12-1.734.11a13.225 13.225 0 01-2.172-.219 4.855 4.855 0 01-2.093-.937A3.965 3.965 0 019.937 38.9l-.313-.72c-.208-.478-.536-1.01-.984-1.593-.448-.584-.9-.979-1.36-1.187l-.218-.157a2.297 2.297 0 01-.406-.375 1.715 1.715 0 01-.281-.438c-.063-.146-.01-.266.156-.36.167-.094.469-.14.906-.14l.625.094c.417.084.932.333 1.547.75.614.416 1.12.958 1.515 1.624.48.855 1.057 1.506 1.735 1.954.677.448 1.359.671 2.046.671.688 0 1.281-.052 1.782-.155.5-.105.968-.261 1.406-.47.187-1.396.698-2.469 1.53-3.218a21.399 21.399 0 01-3.202-.563c-.948-.25-1.927-.656-2.937-1.22-1.011-.561-1.85-1.26-2.516-2.093-.667-.833-1.214-1.927-1.64-3.28-.427-1.355-.641-2.918-.641-4.688 0-2.521.823-4.667 2.469-6.438-.771-1.895-.698-4.02.218-6.374.605-.188 1.5-.047 2.688.421 1.188.47 2.057.87 2.61 1.204.552.333.994.615 1.328.843a22.187 22.187 0 016-.812c2.062 0 4.062.27 6 .812l1.187-.75c.812-.5 1.771-.958 2.875-1.375 1.104-.416 1.948-.53 2.532-.343.937 2.354 1.02 4.479.25 6.374 1.645 1.771 2.468 3.917 2.468 6.438 0 1.77-.214 3.338-.64 4.703-.427 1.365-.979 2.458-1.656 3.281-.677.823-1.521 1.516-2.531 2.078-1.01.563-1.99.969-2.938 1.219-.948.25-2.016.438-3.203.563 1.083.937 1.624 2.416 1.624 4.437v6.593c0 .375.13.688.391.937.26.25.672.323 1.235.219 4.833-1.604 8.776-4.495 11.828-8.672C46.473 34.517 48 29.814 48 24.585c-.001-4.353-1.075-8.368-3.22-12.045z"}))},h=r.a.createElement;var v=function(){return h("svg",{xmlns:"http://www.w3.org/2000/svg",width:"48",height:"48",fill:"none",viewBox:"0 0 48 48"},h("path",{fill:"#000",d:"M24 0C10.747 0 0 10.747 0 24s10.747 24 24 24 24-10.747 24-24S37.253 0 24 0zm-6.974 36.281H11.18V18.696h5.845v17.585zm-2.922-19.986h-.039c-1.961 0-3.23-1.35-3.23-3.038 0-1.725 1.308-3.038 3.307-3.038 2 0 3.23 1.313 3.268 3.038 0 1.688-1.268 3.038-3.306 3.038zM38.102 36.28h-5.844v-9.407c0-2.365-.847-3.977-2.962-3.977-1.614 0-2.576 1.088-2.998 2.138-.155.375-.193.9-.193 1.426v9.82h-5.844s.076-15.935 0-17.585h5.844v2.49c.777-1.198 2.167-2.903 5.268-2.903 3.845 0 6.73 2.514 6.73 7.915v10.083z"}))},g=a.createElement,y=function(){return g("div",{className:"p-4 md:p-0 bg-papaya-whip-500 md:py-4"},g("div",{className:"mx-auto md:w-4/5"},g("h2",{className:"text-xl font-semibold text-center text-wine-berry-500 md:text-4xl"},"Welcome Here!"),g("div",{className:"flex flex-col space-y-4 md:space-x-16 md:flex-row md:justify-center"},g("img",{className:"object-cover md:h-52 ",src:"/images/banner.jpeg",alt:"Lam tam nhu"}),g("div",{className:"space-y-4"},g("h1",{className:"text-2xl font-semibold text-center md:text-4xl text-punch-500 md:text-left"},"L\xe2m T\xe2m Nh\u01b0"),g("p",{className:"max-w-2xl opacity-70"},"I\u2019m a Front-end web developer and UI designer. At FPT University, I am pursuing a degree in Software Engineering. I'm also proficient in English, design, and architectural development, as seen by several school assignment projects."),g("div",{className:"text-center md:text-left"},g("button",{className:"px-4 py-2 font-semibold text-gray-100 rounded-xl bg-punch-500"},"Get In Touch"))),g("div",{className:"hidden space-y-4 lg:block"},g("a",{href:"https://www.linkedin.com/in/t%C3%A2m-nh%C6%B0-l%C3%A2m-0ab792218/",className:"block",target:"__blank"},g(v,null)),g("a",{href:"https://github.com/shelling94",target:"__blank",className:"block"},g(p,null)),g("a",{href:"https://www.behance.net/tmnhlm1",className:"block",target:"__blank"},g(d,null))))))},w=n("Yh1s"),x={home:{link:"/",header:{title:"L\xe2m T\xe2m Nh\u01b0 | Portfolio",canonical:"/",description:"My Personal Portfolio",isIndexPage:!0}},404:{link:"/404",header:{title:"",canonical:"/404",description:"Page Not Found"}}},b=a.createElement,M=function(){return b("div",{className:"flex justify-center space-x-16 md:py-8"},b("div",{className:"px-2 py-4 space-y-2"},b("h1",{className:"text-lg font-semibold text-punch-500 md:text-4xl"},"About Me"),b("p",{className:"max-w-lg opacity-70"},"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."),b("div",{className:"flex flex-col space-y-2 md:space-y-0 md:space-x-8 md:flex-row"},b("ul",{className:"space-y-2 md:space-y-4"},b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/location.png",alt:"",width:"24",height:"24"})," Location: Ho Chi City, Vietnam"),b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/uni.png",alt:"",width:"24",height:"24"})," University: FPT University"),b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/phone.png",alt:"",width:"24",height:"24"})," Phone: 0901951454"),b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/level.png",alt:"",width:"24",height:"24"})," Level: Fresher")),b("ul",{className:"space-y-2 md:space-y-4"},b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/address.png",alt:"",width:"24",height:"24"})," Address: Binh Thanh District"),b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/degree.png",alt:"",width:"24",height:"24"})," Degree: Undergraduate"),b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/email.png",alt:"",width:"24",height:"24"})," Email: tamnhulam94ls@gmail.com"),b("li",{className:"flex items-center gap-1"},b("img",{src:"/images/major.png",alt:"",width:"24",height:"24"})," Major: Front-end Developer, UI designer")))),b("div",{className:"relative hidden m-8 h-96 cus-border lg:block"},b("img",{src:"/images/image.png",alt:"lam tam nhu",className:"z-10 h-full "})))},_=a.createElement;t.default=function(){return _(a.Fragment,null,_(w.a,x.home.header),_(u,null),_(y,null),_(M,null))}},"48fX":function(e,t,n){var a=n("qhzo");e.exports=function(e,t){if("function"!==typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&a(e,t)}},"5fIB":function(e,t,n){var a=n("7eYB");e.exports=function(e){if(Array.isArray(e))return a(e)}},"8Kt/":function(e,t,n){"use strict";n("oI91");t.__esModule=!0,t.defaultHead=u,t.default=void 0;var a,r=function(e){if(e&&e.__esModule)return e;if(null===e||"object"!==typeof e&&"function"!==typeof e)return{default:e};var t=s();if(t&&t.has(e))return t.get(e);var n={},a=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var c=a?Object.getOwnPropertyDescriptor(e,r):null;c&&(c.get||c.set)?Object.defineProperty(n,r,c):n[r]=e[r]}n.default=e,t&&t.set(e,n);return n}(n("q1tI")),c=(a=n("Xuae"))&&a.__esModule?a:{default:a},o=n("lwAK"),i=n("FYa8"),l=n("/0+H");function s(){if("function"!==typeof WeakMap)return null;var e=new WeakMap;return s=function(){return e},e}function u(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0],t=[r.default.createElement("meta",{charSet:"utf-8"})];return e||t.push(r.default.createElement("meta",{name:"viewport",content:"width=device-width"})),t}function f(e,t){return"string"===typeof t||"number"===typeof t?e:t.type===r.default.Fragment?e.concat(r.default.Children.toArray(t.props.children).reduce((function(e,t){return"string"===typeof t||"number"===typeof t?e:e.concat(t)}),[])):e.concat(t)}var d=["name","httpEquiv","charSet","itemProp"];function m(e,t){return e.reduce((function(e,t){var n=r.default.Children.toArray(t.props.children);return e.concat(n)}),[]).reduce(f,[]).reverse().concat(u(t.inAmpMode)).filter(function(){var e=new Set,t=new Set,n=new Set,a={};return function(r){var c=!0,o=!1;if(r.key&&"number"!==typeof r.key&&r.key.indexOf("$")>0){o=!0;var i=r.key.slice(r.key.indexOf("$")+1);e.has(i)?c=!1:e.add(i)}switch(r.type){case"title":case"base":t.has(r.type)?c=!1:t.add(r.type);break;case"meta":for(var l=0,s=d.length;l<s;l++){var u=d[l];if(r.props.hasOwnProperty(u))if("charSet"===u)n.has(u)?c=!1:n.add(u);else{var f=r.props[u],m=a[u]||new Set;"name"===u&&o||!m.has(f)?(m.add(f),a[u]=m):c=!1}}}return c}}()).reverse().map((function(e,t){var n=e.key||t;return r.default.cloneElement(e,{key:n})}))}function p(e){var t=e.children,n=(0,r.useContext)(o.AmpStateContext),a=(0,r.useContext)(i.HeadManagerContext);return r.default.createElement(c.default,{reduceComponentsToState:m,headManager:a,inAmpMode:(0,l.isInAmpMode)(n)},t)}p.rewind=function(){};var h=p;t.default=h},"8oxB":function(e,t){var n,a,r=e.exports={};function c(){throw new Error("setTimeout has not been defined")}function o(){throw new Error("clearTimeout has not been defined")}function i(e){if(n===setTimeout)return setTimeout(e,0);if((n===c||!n)&&setTimeout)return n=setTimeout,setTimeout(e,0);try{return n(e,0)}catch(t){try{return n.call(null,e,0)}catch(t){return n.call(this,e,0)}}}!function(){try{n="function"===typeof setTimeout?setTimeout:c}catch(e){n=c}try{a="function"===typeof clearTimeout?clearTimeout:o}catch(e){a=o}}();var l,s=[],u=!1,f=-1;function d(){u&&l&&(u=!1,l.length?s=l.concat(s):f=-1,s.length&&m())}function m(){if(!u){var e=i(d);u=!0;for(var t=s.length;t;){for(l=s,s=[];++f<t;)l&&l[f].run();f=-1,t=s.length}l=null,u=!1,function(e){if(a===clearTimeout)return clearTimeout(e);if((a===o||!a)&&clearTimeout)return a=clearTimeout,clearTimeout(e);try{a(e)}catch(t){try{return a.call(null,e)}catch(t){return a.call(this,e)}}}(e)}}function p(e,t){this.fun=e,this.array=t}function h(){}r.nextTick=function(e){var t=new Array(arguments.length-1);if(arguments.length>1)for(var n=1;n<arguments.length;n++)t[n-1]=arguments[n];s.push(new p(e,t)),1!==s.length||u||i(m)},p.prototype.run=function(){this.fun.apply(null,this.array)},r.title="browser",r.browser=!0,r.env={},r.argv=[],r.version="",r.versions={},r.on=h,r.addListener=h,r.once=h,r.off=h,r.removeListener=h,r.removeAllListeners=h,r.emit=h,r.prependListener=h,r.prependOnceListener=h,r.listeners=function(e){return[]},r.binding=function(e){throw new Error("process.binding is not supported")},r.cwd=function(){return"/"},r.chdir=function(e){throw new Error("process.chdir is not supported")},r.umask=function(){return 0}},FYa8:function(e,t,n){"use strict";var a;t.__esModule=!0,t.HeadManagerContext=void 0;var r=((a=n("q1tI"))&&a.__esModule?a:{default:a}).default.createContext({});t.HeadManagerContext=r},T0f4:function(e,t){function n(t){return e.exports=n=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},n(t)}e.exports=n},UkVL:function(e,t,n){"use strict";n.d(t,"a",(function(){return a}));var a=function(e){return e.split(" ").map((function(e){return e.charAt(0).toUpperCase()+e.slice(1)})).join(" ")}},Xuae:function(e,t,n){"use strict";var a=n("mPvQ"),r=n("/GRZ"),c=n("i2R6"),o=(n("qXWd"),n("48fX")),i=n("tCBg"),l=n("T0f4");function s(e){var t=function(){if("undefined"===typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"===typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,a=l(e);if(t){var r=l(this).constructor;n=Reflect.construct(a,arguments,r)}else n=a.apply(this,arguments);return i(this,n)}}t.__esModule=!0,t.default=void 0;var u=n("q1tI"),f=function(e){o(n,e);var t=s(n);function n(e){var c;return r(this,n),(c=t.call(this,e))._hasHeadManager=void 0,c.emitChange=function(){c._hasHeadManager&&c.props.headManager.updateHead(c.props.reduceComponentsToState(a(c.props.headManager.mountedInstances),c.props))},c._hasHeadManager=c.props.headManager&&c.props.headManager.mountedInstances,c}return c(n,[{key:"componentDidMount",value:function(){this._hasHeadManager&&this.props.headManager.mountedInstances.add(this),this.emitChange()}},{key:"componentDidUpdate",value:function(){this.emitChange()}},{key:"componentWillUnmount",value:function(){this._hasHeadManager&&this.props.headManager.mountedInstances.delete(this),this.emitChange()}},{key:"render",value:function(){return null}}]),n}(u.Component);t.default=f},YFqc:function(e,t,n){e.exports=n("cTJO")},Yh1s:function(e,t,n){"use strict";(function(e){var a=n("q1tI"),r=n("g4pe"),c=n.n(r),o=n("UkVL"),i=a.createElement;t.a=function(t){var n=t.title,a=void 0===n?"":n,r=t.isIndexPage,l=void 0!==r&&r,s=t.isFollowPage,u=void 0===s||s,f=t.description,d=void 0===f?"":f,m=t.canonical,p=void 0===m?"":m,h=t.imageUrl,v=void 0===h?"/images/image.png":h,g=u?"follow":"nofollow",y="".concat(l?"index":"noindex",",").concat(g),w="".concat(a);return i(c.a,null,i("meta",{charSet:"UTF-8"}),i("meta",{httpEquiv:"Content-Type",content:"text/html;charset=UTF-8"}),i("meta",{name:"viewport",content:"width=device-width, initial-scale=1.0, user-scalable=0"}),i("title",null,Object(o.a)(w)),i("meta",{name:"description",content:d}),i("meta",{name:"robots",content:y}),i("meta",{name:"keywords",content:"Lam Tam Nhu, portfolio, personal project"}),i("link",{href:"https://shelling.site"+p,rel:"canonical"}),i("meta",{property:"og:type",content:"article"}),i("meta",{property:"og:title",content:w}),i("meta",{property:"og:description",content:d}),i("meta",{property:"og:image",content:v}),i("meta",{property:"fb:app_id",content:e.env.FB_APP_ID}),i("meta",{name:"twitter:title",content:w}),i("meta",{name:"twitter:description",content:d}),i("meta",{name:"twitter:image",content:v}),i("meta",{name:"twitter:card",content:"summary_large_image"}))}}).call(this,n("8oxB"))},cTJO:function(e,t,n){"use strict";var a=n("zoAU"),r=n("7KCV");t.__esModule=!0,t.default=void 0;var c=r(n("q1tI")),o=n("elyg"),i=n("nOHt"),l=n("vNVm"),s={};function u(e,t,n,a){if(e&&(0,o.isLocalURL)(t)){e.prefetch(t,n,a).catch((function(e){0}));var r=a&&"undefined"!==typeof a.locale?a.locale:e&&e.locale;s[t+"%"+n+(r?"%"+r:"")]=!0}}var f=function(e){var t=!1!==e.prefetch,n=(0,i.useRouter)(),r=n&&n.pathname||"/",f=c.default.useMemo((function(){var t=(0,o.resolveHref)(r,e.href,!0),n=a(t,2),c=n[0],i=n[1];return{href:c,as:e.as?(0,o.resolveHref)(r,e.as):i||c}}),[r,e.href,e.as]),d=f.href,m=f.as,p=e.children,h=e.replace,v=e.shallow,g=e.scroll,y=e.locale;"string"===typeof p&&(p=c.default.createElement("a",null,p));var w=c.Children.only(p),x=w&&"object"===typeof w&&w.ref,b=(0,l.useIntersection)({rootMargin:"200px"}),M=a(b,2),_=M[0],N=M[1],C=c.default.useCallback((function(e){_(e),x&&("function"===typeof x?x(e):"object"===typeof x&&(x.current=e))}),[x,_]);(0,c.useEffect)((function(){var e=N&&t&&(0,o.isLocalURL)(d),a="undefined"!==typeof y?y:n&&n.locale,r=s[d+"%"+m+(a?"%"+a:"")];e&&!r&&u(n,d,m,{locale:a})}),[m,d,N,y,t,n]);var k={ref:C,onClick:function(e){w.props&&"function"===typeof w.props.onClick&&w.props.onClick(e),e.defaultPrevented||function(e,t,n,a,r,c,i,l){("A"!==e.currentTarget.nodeName||!function(e){var t=e.currentTarget.target;return t&&"_self"!==t||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||e.nativeEvent&&2===e.nativeEvent.which}(e)&&(0,o.isLocalURL)(n))&&(e.preventDefault(),null==i&&(i=a.indexOf("#")<0),t[r?"replace":"push"](n,a,{shallow:c,locale:l,scroll:i}))}(e,n,d,m,h,v,g,y)},onMouseEnter:function(e){(0,o.isLocalURL)(d)&&(w.props&&"function"===typeof w.props.onMouseEnter&&w.props.onMouseEnter(e),u(n,d,m,{priority:!0}))}};if(e.passHref||"a"===w.type&&!("href"in w.props)){var E="undefined"!==typeof y?y:n&&n.locale,T=n&&n.isLocaleDomain&&(0,o.getDomainLocale)(m,E,n&&n.locales,n&&n.domainLocales);k.href=T||(0,o.addBasePath)((0,o.addLocale)(m,E,n&&n.defaultLocale))}return c.default.cloneElement(w,k)};t.default=f},g4pe:function(e,t,n){e.exports=n("8Kt/")},kG2m:function(e,t){e.exports=function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}},lwAK:function(e,t,n){"use strict";var a;t.__esModule=!0,t.AmpStateContext=void 0;var r=((a=n("q1tI"))&&a.__esModule?a:{default:a}).default.createContext({});t.AmpStateContext=r},mPvQ:function(e,t,n){var a=n("5fIB"),r=n("rlHP"),c=n("KckH"),o=n("kG2m");e.exports=function(e){return a(e)||r(e)||c(e)||o()}},oI91:function(e,t){e.exports=function(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}},qXWd:function(e,t){e.exports=function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}},rlHP:function(e,t){e.exports=function(e){if("undefined"!==typeof Symbol&&Symbol.iterator in Object(e))return Array.from(e)}},tCBg:function(e,t,n){var a=n("C+bE"),r=n("qXWd");e.exports=function(e,t){return!t||"object"!==a(t)&&"function"!==typeof t?r(e):t}},vNVm:function(e,t,n){"use strict";var a=n("zoAU");t.__esModule=!0,t.useIntersection=function(e){var t=e.rootMargin,n=e.disabled||!o,l=(0,r.useRef)(),s=(0,r.useState)(!1),u=a(s,2),f=u[0],d=u[1],m=(0,r.useCallback)((function(e){l.current&&(l.current(),l.current=void 0),n||f||e&&e.tagName&&(l.current=function(e,t,n){var a=function(e){var t=e.rootMargin||"",n=i.get(t);if(n)return n;var a=new Map,r=new IntersectionObserver((function(e){e.forEach((function(e){var t=a.get(e.target),n=e.isIntersecting||e.intersectionRatio>0;t&&n&&t(n)}))}),e);return i.set(t,n={id:t,observer:r,elements:a}),n}(n),r=a.id,c=a.observer,o=a.elements;return o.set(e,t),c.observe(e),function(){o.delete(e),c.unobserve(e),0===o.size&&(c.disconnect(),i.delete(r))}}(e,(function(e){return e&&d(e)}),{rootMargin:t}))}),[n,t,f]);return(0,r.useEffect)((function(){if(!o&&!f){var e=(0,c.requestIdleCallback)((function(){return d(!0)}));return function(){return(0,c.cancelIdleCallback)(e)}}}),[f]),[m,f]};var r=n("q1tI"),c=n("0G5g"),o="undefined"!==typeof IntersectionObserver;var i=new Map}},[["/EDR",0,1,2]]]);
+_N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
+    [7],
+    {
+        '/0+H': function (e, t, n) {
+            'use strict';
+            (t.__esModule = !0),
+                (t.isInAmpMode = o),
+                (t.useAmp = function () {
+                    return o(r.default.useContext(c.AmpStateContext));
+                });
+            var a,
+                r = (a = n('q1tI')) && a.__esModule ? a : { default: a },
+                c = n('lwAK');
+            function o() {
+                var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+                    t = e.ampFirst,
+                    n = void 0 !== t && t,
+                    a = e.hybrid,
+                    r = void 0 !== a && a,
+                    c = e.hasQuery,
+                    o = void 0 !== c && c;
+                return n || (r && o);
+            }
+        },
+        '/EDR': function (e, t, n) {
+            (window.__NEXT_P = window.__NEXT_P || []).push([
+                '/',
+                function () {
+                    return n('23aj');
+                },
+            ]);
+        },
+        '23aj': function (e, t, n) {
+            'use strict';
+            n.r(t);
+            var a = n('q1tI'),
+                r = n.n(a),
+                c = n('YFqc'),
+                o = n.n(c),
+                i = r.a.createElement;
+            var l = function () {
+                    return i(
+                        'svg',
+                        { xmlns: 'http://www.w3.org/2000/svg', width: '113', height: '70', fill: 'none', viewBox: '0 0 113 70' },
+                        i('path', {
+                            fill: '#DC3545',
+                            d: 'M1.16 37.982c-.099.033-.164 0-.197-.098a.571.571 0 01-.098-.147c-.065-.098-.081-.18-.049-.245.392-2.32 1.225-4.377 2.5-6.174 1.273-1.83 2.89-3.43 4.85-4.802 1.895-1.372 4.05-2.613 6.468-3.724a63.622 63.622 0 017.546-2.989 122.72 122.72 0 005.537-1.862 63.388 63.388 0 005.44-2.352l.98-3.626c.359-1.209.767-2.385 1.224-3.528a22.872 22.872 0 011.715-3.332 14.044 14.044 0 012.45-2.989c.229-.229.49-.457.784-.686.327-.261.67-.474 1.03-.637.391-.163.8-.261 1.224-.294.458-.033.948.049 1.47.245.62.229 1.078.523 1.372.882.294.36.474.751.54 1.176 0 .327-.017.653-.05.98a6.284 6.284 0 01-.147.833c-.36 1.241-.8 2.32-1.323 3.234a12.775 12.775 0 01-1.715 2.401c-.62.686-1.34 1.323-2.156 1.911a31.177 31.177 0 01-2.646 1.666 150.987 150.987 0 00-2.009 7.154 102.078 102.078 0 01-1.96 6.762 45.13 45.13 0 01-2.646 6.37c-1.012 2.025-2.335 3.985-3.969 5.88a7.809 7.809 0 01-1.715 1.519 9.123 9.123 0 01-2.205 1.029 7.903 7.903 0 01-2.499.49 7.883 7.883 0 01-2.597-.245c-.98-.261-1.813-.67-2.499-1.225a9.368 9.368 0 01-1.715-1.911 8.97 8.97 0 01-1.029-2.205c-.228-.784-.343-1.486-.343-2.107 0-1.176.147-2.368.441-3.577a14.35 14.35 0 011.421-3.43 12.401 12.401 0 012.352-2.842 8.455 8.455 0 013.185-1.862c.392-.13.866-.196 1.421-.196.523 0 .997.082 1.421.245.458.13.817.376 1.078.735.164.327.18.719.05 1.176-.131.425-.376.67-.736.735-.326.065-.588.065-.784 0-.196-.065-.31-.261-.343-.588 0-.261.05-.49.147-.686.098-.196.115-.376.05-.539-1.046-.261-1.993-.212-2.843.147a6.529 6.529 0 00-2.205 1.47 9.8 9.8 0 00-1.617 2.156c-.457.817-.85 1.584-1.176 2.303-.36.85-.62 1.78-.784 2.793-.13.98-.13 1.944 0 2.891.196 1.209.62 2.27 1.274 3.185.654.882 1.6 1.535 2.842 1.96 1.438.457 2.777.506 4.018.147 1.242-.392 2.205-1.013 2.891-1.862 1.144-1.405 2.107-3.022 2.891-4.851a51.835 51.835 0 002.058-5.88 119.027 119.027 0 001.617-6.321c.49-2.156 1.013-4.247 1.568-6.272a45.53 45.53 0 01-4.753 1.96l-4.704 1.666c-1.568.523-3.12 1.078-4.655 1.666a39.18 39.18 0 00-4.508 1.96 28.257 28.257 0 00-4.508 2.597 22.698 22.698 0 00-3.92 3.283 17.345 17.345 0 00-2.89 3.92A12.168 12.168 0 001.6 37.688a.332.332 0 00-.098.245c-.032.098-.147.114-.343.049zM41.877 2.555a7.76 7.76 0 00-1.568 2.254c-.36.85-.67 1.731-.93 2.646a70.06 70.06 0 00-.638 2.793 21.631 21.631 0 01-.735 2.695 11.86 11.86 0 002.99-2.156c.881-.85 1.698-1.862 2.45-3.038.195-.327.408-.751.636-1.274.262-.555.474-1.11.637-1.666a6.08 6.08 0 00.245-1.617c0-.49-.13-.882-.392-1.176-.196-.261-.555-.36-1.078-.294-.522.033-1.061.31-1.617.833z',
+                        }),
+                        i('path', {
+                            fill: '#000',
+                            d: 'M54.03 2.065c-.23 2.679-.818 5.178-1.765 7.497a50.143 50.143 0 01-3.332 6.615 134.218 134.218 0 01-3.969 6.223 57.517 57.517 0 00-3.675 6.223c.392-.229.768-.49 1.127-.784.36-.294.719-.555 1.078-.784.392-.229.8-.408 1.225-.539.425-.13.915-.147 1.47-.049.49.229.866.539 1.127.931.261.36.425.768.49 1.225.098.457.13.931.098 1.421-.033.457-.065.898-.098 1.323-.163.915-.36 1.862-.588 2.842-.229.947-.457 1.878-.686 2.793-.196.915-.36 1.797-.49 2.646-.13.817-.196 1.568-.196 2.254.065.065.13.098.196.098.098-.033.18-.065.245-.098a29.003 29.003 0 002.597-5.243c.719-1.83 1.454-3.61 2.205-5.341.13-.196.212-.343.245-.441.065-.13.229-.196.49-.196.229.196.376.31.441.343.065.033.033.147-.098.343a40.052 40.052 0 00-1.715 3.871 60.43 60.43 0 01-1.617 4.018c-.555 1.241-1.143 2.287-1.764 3.136-.62.85-1.29 1.274-2.009 1.274a2.94 2.94 0 01-1.813-.588c-.49-.36-.702-.817-.637-1.372.065-1.11.196-2.14.392-3.087.229-.98.474-1.944.735-2.891.261-.947.523-1.927.784-2.94.294-1.013.54-2.14.735-3.381 0-.098.016-.261.05-.49a2.084 2.084 0 000-.637c-.034-.229-.083-.392-.148-.49-.065-.13-.196-.147-.392-.049a5.561 5.561 0 00-1.764 1.176c-.49.49-1.013.996-1.568 1.519a14.619 14.619 0 00-1.764 2.94 78.492 78.492 0 00-1.323 3.332c-.392 1.143-.8 2.27-1.225 3.381a19.881 19.881 0 01-1.519 3.136c-.229.163-.44.229-.637.196-.229 0-.44-.033-.637-.098-.523-.13-.85-.523-.98-1.176.065 0 .065-.033 0-.098-.065-.033-.082-.065-.049-.098a468.836 468.836 0 002.891-8.967c.882-2.973 1.797-5.88 2.744-8.722.98-2.875 2.01-5.684 3.087-8.428a89.566 89.566 0 013.724-8.036 16.44 16.44 0 011.225-1.862 16.882 16.882 0 011.568-1.813 13.928 13.928 0 011.862-1.568 7.81 7.81 0 012.01-1.029c.424-.163.8-.147 1.126.049.36.196.523.36.49.49zm-1.226.245c-.261-.033-.572.13-.93.49-.328.327-.67.719-1.03 1.176-.36.457-.686.915-.98 1.372-.294.425-.49.719-.588.882a35.813 35.813 0 00-1.96 4.214 71.551 71.551 0 00-1.519 4.459 190.65 190.65 0 00-1.274 4.263 74.767 74.767 0 01-1.029 3.528 62.142 62.142 0 003.283-4.655 48.225 48.225 0 002.891-4.998 44.615 44.615 0 002.254-5.194 25.587 25.587 0 001.372-5.145c.065-.13.033-.229-.098-.294-.13-.098-.261-.13-.392-.098zm7.912 28.567c.228 0 .343.049.343.147 0 .065-.017.18-.05.343a196.23 196.23 0 01-1.665 4.263 35.58 35.58 0 01-1.715 3.675c-.588 1.045-1.193 1.895-1.813 2.548-.588.653-1.209 1.013-1.862 1.078-.752.065-1.438-.065-2.058-.392a4.667 4.667 0 01-1.617-1.274 7.147 7.147 0 01-1.078-1.96 6.822 6.822 0 01-.392-2.254c0-1.47.261-2.94.784-4.41.522-1.47 1.176-2.793 1.96-3.969.261-.36.588-.719.98-1.078.424-.36.865-.637 1.323-.833.457-.229.93-.36 1.42-.392.49-.033.948.098 1.373.392.294.261.522.702.686 1.323.065.457.065.931 0 1.421-.066.49-.18.915-.343 1.274-.49 1.34-1.193 2.483-2.107 3.43a40.212 40.212 0 01-2.793 2.548v1.225c.032.425.081.866.147 1.323.065.719.261 1.34.588 1.862.359.49.882.653 1.568.49.522-.13 1.029-.555 1.519-1.274.522-.751 1.012-1.633 1.47-2.646a48.04 48.04 0 001.372-3.234c.424-1.143.816-2.189 1.176-3.136 0-.163.098-.294.294-.392.196-.13.359-.163.49-.098zm-4.851-3.234c-.098-.098-.343.13-.735.686-.36.555-.735 1.258-1.127 2.107a21.847 21.847 0 00-1.03 2.548c-.293.882-.44 1.584-.44 2.107.424-.163.93-.572 1.519-1.225a9.68 9.68 0 001.47-2.156c.424-.784.702-1.552.833-2.303.13-.784-.033-1.372-.49-1.764zM72.677 5.985c.424-.327.849-.49 1.274-.49.392 0 .751.13 1.078.392.359.261.522.67.49 1.225-.033 1.503-.441 3.185-1.225 5.047-.784 1.83-1.78 3.724-2.99 5.684a76.561 76.561 0 01-3.92 5.88 191.644 191.644 0 01-4.066 5.39 79.433 79.433 0 01-.686 2.548c-.229.882-.441 1.78-.637 2.695a27.2 27.2 0 00-.441 2.695 10.648 10.648 0 000 2.499c.065.36.13.702.196 1.029.065.327.18.67.343 1.029.196.327.392.49.588.49.228 0 .424-.114.588-.343.424-.49.865-1.16 1.323-2.009.49-.882.963-1.813 1.42-2.793.458-1.013.899-2.009 1.324-2.989a43.655 43.655 0 011.176-2.597c.032-.098.098-.245.196-.441s.277-.245.539-.147c.196.065.294.163.294.294.032.13.016.229-.05.294-.326.555-.669 1.258-1.028 2.107-.327.817-.686 1.682-1.078 2.597s-.8 1.813-1.225 2.695a13.392 13.392 0 01-1.323 2.352c-.458.686-.948 1.209-1.47 1.568-.523.392-1.078.539-1.666.441a4.068 4.068 0 01-1.96-1.029c-.556-.49-.931-1.192-1.127-2.107-.327-1.437-.409-2.94-.245-4.508.13-1.568.408-3.152.833-4.753.392-1.633.898-3.25 1.519-4.851.62-1.633 1.257-3.234 1.91-4.802 1.242-2.973 2.647-5.733 4.215-8.281a29.152 29.152 0 015.83-6.811zm2.009 1.764a1.82 1.82 0 00.049-.441 2.75 2.75 0 00-.05-.539.458.458 0 00-.244-.343c-.098-.098-.245-.13-.441-.098-.327-.033-.605.147-.833.539-.229.392-.425.719-.588.98a78.717 78.717 0 00-4.9 9.212c-1.34 3.038-2.614 6.337-3.822 9.898a147.155 147.155 0 003.185-4.312 69.986 69.986 0 003.038-4.606c.947-1.6 1.813-3.25 2.597-4.949a40.018 40.018 0 002.009-5.341zm6.891-1.764c.425-.327.85-.49 1.274-.49.392 0 .751.13 1.078.392.36.261.523.67.49 1.225-.033 1.503-.441 3.185-1.225 5.047-.784 1.83-1.78 3.724-2.989 5.684a76.561 76.561 0 01-3.92 5.88 191.644 191.644 0 01-4.067 5.39 79.433 79.433 0 01-.686 2.548c-.229.882-.441 1.78-.637 2.695a27.2 27.2 0 00-.441 2.695 10.648 10.648 0 000 2.499c.065.36.13.702.196 1.029.065.327.18.67.343 1.029.196.327.392.49.588.49.229 0 .425-.114.588-.343.425-.49.866-1.16 1.323-2.009.49-.882.964-1.813 1.421-2.793.457-1.013.898-2.009 1.323-2.989a43.655 43.655 0 011.176-2.597c.033-.098.098-.245.196-.441s.278-.245.539-.147c.196.065.294.163.294.294.033.13.016.229-.049.294-.327.555-.67 1.258-1.029 2.107-.327.817-.686 1.682-1.078 2.597s-.8 1.813-1.225 2.695a13.392 13.392 0 01-1.323 2.352c-.457.686-.947 1.209-1.47 1.568-.523.392-1.078.539-1.666.441a4.068 4.068 0 01-1.96-1.029c-.555-.49-.931-1.192-1.127-2.107-.327-1.437-.408-2.94-.245-4.508.13-1.568.408-3.152.833-4.753.392-1.633.898-3.25 1.519-4.851.62-1.633 1.258-3.234 1.911-4.802 1.241-2.973 2.646-5.733 4.214-8.281a29.152 29.152 0 015.831-6.811zm2.009 1.764a1.82 1.82 0 00.049-.441 2.75 2.75 0 00-.049-.539.458.458 0 00-.245-.343c-.098-.098-.245-.13-.441-.098-.327-.033-.604.147-.833.539-.229.392-.425.719-.588.98a78.717 78.717 0 00-4.9 9.212c-1.34 3.038-2.613 6.337-3.822 9.898a147.155 147.155 0 003.185-4.312 69.986 69.986 0 003.038-4.606c.947-1.6 1.813-3.25 2.597-4.949a40.018 40.018 0 002.009-5.341zm1.128 23.03c-.229 0-.36.033-.392.098 0 .065-.082.229-.245.49a66.662 66.662 0 01-2.01 4.802 61.682 61.682 0 01-2.302 4.459c-.066.098-.18.261-.343.49-.13.196-.294.376-.49.539a1.375 1.375 0 01-.54.343c-.195.033-.358-.082-.49-.343.23-1.764.49-3.152.785-4.165.326-1.013.653-1.927.98-2.744.36-.85.702-1.715 1.029-2.597.36-.915.67-2.14.93-3.675.033-.36.033-.735 0-1.127 0-.425-.31-.719-.93-.882-.294-.065-.686-.098-1.176-.098-.49-.033-.817.049-.98.245a116.23 116.23 0 00-.294 1.862c-.066.62-.294 1.356-.686 2.205a67.332 67.332 0 01-.833 2.352 22.48 22.48 0 00-.833 2.352c-.262.784-.458 1.6-.588 2.45-.13.85-.147 1.748-.05 2.695.066.686.311 1.29.736 1.813.392.555.833.98 1.323 1.274.228.098.457.13.686.098.228-.033.44-.114.637-.245.196-.13.375-.278.539-.441.196-.13.36-.261.49-.392a30.519 30.519 0 003.087-5.488 152.48 152.48 0 002.352-5.782.805.805 0 00-.05-.245.592.592 0 00-.342-.343zm-3.97-10.192c.164.13.328.36.49.686.164.327.213.588.148.784-.066.85-.278 1.372-.637 1.568-.327.163-.752.18-1.274.049-.294-.065-.523-.31-.686-.735a2.356 2.356 0 01.049-1.421c.163-.36.408-.67.735-.931.36-.261.751-.261 1.176 0zm18.08 10.78c.033 0 .05-.033.05-.098l.098-.294a.74.74 0 01.245-.294c.098-.065.228-.065.392 0 .13.065.212.163.245.294.065.13.065.229 0 .294a534.746 534.746 0 00-1.764 4.165 65.478 65.478 0 01-1.862 4.165 55.947 55.947 0 01-2.156 4.165 34.515 34.515 0 01-2.695 4.018c-.164.163-.376.31-.637.441-.262.163-.523.212-.784.147-.523-.163-.915-.441-1.176-.833a3.137 3.137 0 01-.49-1.372c-.098-.817-.066-1.535.098-2.156.196-1.405.522-2.989.98-4.753.49-1.797.963-3.479 1.42-5.047.49-1.6.899-2.956 1.226-4.067.326-1.11.424-1.699.294-1.764-.556-.229-1.046-.245-1.47-.049a3.04 3.04 0 00-1.078.784c-.327.36-.621.768-.882 1.225-.229.457-.458.85-.686 1.176a15.386 15.386 0 00-1.421 2.597 34.236 34.236 0 00-1.078 2.744l-.98 2.842a28.628 28.628 0 01-1.03 2.793c-.163.065-.359.147-.587.245-.229.098-.523.114-.882.049a3.903 3.903 0 01-.98-.588c-.36-.261-.54-.588-.54-.98.621-1.34 1.144-2.842 1.569-4.508.392-1.666.767-3.169 1.127-4.508.098-.425.147-.833.147-1.225V29.75c.032-.392.065-.751.098-1.078.065-.36.18-.686.343-.98.522-.13 1.16-.196 1.91-.196.589.392.932.996 1.03 1.813.032.261.049.523.049.784.032.229.065.474.098.735.294-.261.571-.604.833-1.029.294-.425.604-.833.93-1.225a4.63 4.63 0 011.177-1.078c.457-.327 1.012-.506 1.666-.539 1.012-.065 1.747.147 2.205.637.457.49.718 1.11.784 1.862.065.457.065.931 0 1.421-.033.49-.082.964-.147 1.421-.066.457-.147.882-.245 1.274-.066.36-.115.637-.147.833-.164.947-.36 1.862-.588 2.744a77.668 77.668 0 01-.637 2.646c-.196.882-.409 1.78-.637 2.695a25.758 25.758 0 00-.54 2.842c.72-.98 1.422-2.09 2.108-3.332a82.433 82.433 0 001.96-3.773 90.661 90.661 0 001.715-3.724c.522-1.209.963-2.254 1.323-3.136zm13.087 0c.163-.261.343-.49.539-.686.196-.196.375-.13.539.196a.796.796 0 00-.049.245c.032.065.016.147-.049.245a51.249 51.249 0 01-3.479 6.076c-1.307 1.927-2.973 3.577-4.998 4.949a92.586 92.586 0 00-1.862 4.802 463.142 463.142 0 00-1.862 5.292 489.598 489.598 0 01-1.862 5.292 56.298 56.298 0 01-1.96 4.802c-.719 1.503-1.454 2.81-2.205 3.92-.784 1.143-1.601 1.993-2.45 2.548-.36.261-.735.457-1.127.588a3.655 3.655 0 01-1.323.245c-.556 0-1.046-.13-1.47-.392-.556-.294-.964-.686-1.225-1.176a3.952 3.952 0 01-.54-1.617 2.344 2.344 0 01-.048-.833c0-.294.016-.588.049-.882a17.306 17.306 0 012.303-6.517 33.22 33.22 0 014.116-5.635l3.675-3.577a211.321 211.321 0 003.822-3.822c.13-.653.294-1.274.49-1.862.196-.588.359-1.192.49-1.813-.131.163-.392.31-.784.441-.36.13-.768.196-1.225.196-.327 0-.654-.049-.98-.147a2.154 2.154 0 01-.882-.392c-.36-.392-.67-.85-.931-1.372a4.866 4.866 0 01-.49-1.617c-.196-1.372-.017-2.793.539-4.263.522-1.47 1.16-2.728 1.91-3.773.425-.62.915-1.274 1.471-1.96a13.834 13.834 0 011.862-1.813 8.13 8.13 0 012.156-1.274 4.16 4.16 0 012.352-.196c.392.098.735.343 1.029.735.326.392.49.768.49 1.127.359.065.669.049.931-.049.261-.13.522-.114.784.049.098.36.114.653.049.882a190.166 190.166 0 01-2.058 6.027 108.378 108.378 0 01-2.45 6.076c1.502-1.143 2.744-2.466 3.724-3.969a60.284 60.284 0 002.989-5.096zM92.948 64.981a84.96 84.96 0 003.773-8.624 91.205 91.205 0 002.793-9.065 221.847 221.847 0 01-3.97 4.067 48.047 48.047 0 00-3.87 4.361 27.113 27.113 0 00-2.94 4.753 11.764 11.764 0 00-1.225 5.243 4.61 4.61 0 00.343 1.96c.228.686.653 1.045 1.274 1.078.326 0 .67-.114 1.029-.343.359-.196.718-.49 1.078-.882.326-.36.637-.768.93-1.225.295-.425.556-.866.785-1.323zm11.711-30.625c.098-.196.245-.572.441-1.127.228-.555.457-1.16.686-1.813.261-.686.49-1.356.686-2.009.196-.686.294-1.241.294-1.666.065-.62-.049-1.013-.343-1.176-.262-.163-.654-.13-1.176.098-.425.196-.833.523-1.225.98-.36.425-.719.931-1.078 1.519a18.68 18.68 0 00-.931 1.813c-.294.62-.556 1.209-.784 1.764a93.276 93.276 0 01-1.421 3.332c-.425 1.013-.67 2.14-.735 3.381 0 .392.163.735.49 1.029.359.294.718.278 1.078-.049.62-.392 1.11-.768 1.47-1.127.359-.392.669-.817.931-1.274.261-.457.506-.98.735-1.568.228-.588.522-1.29.882-2.107z',
+                        }),
+                    );
+                },
+                s = a.createElement,
+                u = function () {
+                    return s(
+                        'div',
+                        null,
+                        s(
+                            'div',
+                            {
+                                className:
+                                    'flex flex-col items-center justify-center p-2 pt-4 space-y-2 md:mx-auto md:w-4/5 md:justify-between md:flex-row',
+                            },
+                            s(o.a, { href: '/' }, s(l, null)),
+                            s(
+                                'div',
+                                null,
+                                s(
+                                    'ul',
+                                    { className: 'flex space-x-4 font-semibold md:text-lg md:space-x-12' },
+                                    s('li', { className: 'duration-300 hover:text-punch-500' }, s(o.a, { href: '/' }, 'Home')),
+                                    s('li', { className: 'duration-300 hover:text-punch-500' }, s(o.a, { href: '/' }, 'About')),
+                                    s('li', { className: 'duration-300 hover:text-punch-500' }, s(o.a, { href: '/' }, 'Blog')),
+                                    s(
+                                        'li',
+                                        { className: 'duration-300 hover:text-punch-500' },
+                                        s('a', { href: 'https://github.com/shelling94', target: '__blank' }, 'Repository'),
+                                    ),
+                                    s('li', { className: 'duration-300 hover:text-punch-500' }, s(o.a, { href: '/' }, 'Contact')),
+                                ),
+                            ),
+                        ),
+                    );
+                },
+                f = r.a.createElement;
+            var d = function () {
+                    return f(
+                        'svg',
+                        { xmlns: 'http://www.w3.org/2000/svg', width: '48', height: '48', fill: 'none', viewBox: '0 0 48 48' },
+                        f('path', {
+                            fill: '#000',
+                            d: 'M19.316 19.018c0-2.264-1.54-2.264-1.54-2.264h-6.338v4.858h5.945c1.027 0 1.933-.329 1.933-2.594zM17.776 24.968h-6.338v5.819h6.046c.91-.026 2.588-.311 2.588-2.829 0-3.02-2.296-2.99-2.296-2.99zM34.002 21.611c-3.364 0-3.832 3.357-3.832 3.357h7.152s.043-3.357-3.32-3.357z',
+                        }),
+                        f('path', {
+                            fill: '#000',
+                            d: 'M24 0C10.745 0 0 10.746 0 24s10.745 24 24 24 24-10.746 24-24S37.255 0 24 0zm5.233 14.166h8.983v2.68h-8.983v-2.68zm-4.54 14.062c0 6.646-6.917 6.427-6.917 6.427H6.446V12.883h11.33c3.443 0 6.161 1.901 6.161 5.797s-3.322 4.143-3.322 4.143c4.38 0 4.077 5.405 4.077 5.405zm9.351 3.434c3.62 0 3.491-2.342 3.491-2.342h3.832c0 6.216-7.45 5.79-7.45 5.79-8.94 0-8.366-8.323-8.366-8.323s-.007-8.364 8.365-8.364c8.813 0 7.579 9.45 7.579 9.45H30.213c0 4.046 3.831 3.79 3.831 3.79z',
+                        }),
+                    );
+                },
+                m = r.a.createElement;
+            var p = function () {
+                    return m(
+                        'svg',
+                        { xmlns: 'http://www.w3.org/2000/svg', width: '48', height: '48', fill: 'none', viewBox: '0 0 48 48' },
+                        m('path', {
+                            fill: '#000',
+                            d: 'M44.78 12.54c-2.146-3.677-5.057-6.588-8.734-8.734C32.37 1.66 28.354.587 24 .587c-4.355 0-8.37 1.073-12.047 3.219-3.677 2.146-6.588 5.057-8.734 8.734C1.073 16.217 0 20.233 0 24.586c0 5.23 1.526 9.932 4.578 14.11 3.052 4.176 6.995 7.067 11.828 8.67.562.105.979.032 1.25-.218.27-.25.406-.562.406-.937l-.016-1.687c-.01-1.063-.016-1.99-.016-2.781l-.719.124c-.458.084-1.036.12-1.734.11a13.225 13.225 0 01-2.172-.219 4.855 4.855 0 01-2.093-.937A3.965 3.965 0 019.937 38.9l-.313-.72c-.208-.478-.536-1.01-.984-1.593-.448-.584-.9-.979-1.36-1.187l-.218-.157a2.297 2.297 0 01-.406-.375 1.715 1.715 0 01-.281-.438c-.063-.146-.01-.266.156-.36.167-.094.469-.14.906-.14l.625.094c.417.084.932.333 1.547.75.614.416 1.12.958 1.515 1.624.48.855 1.057 1.506 1.735 1.954.677.448 1.359.671 2.046.671.688 0 1.281-.052 1.782-.155.5-.105.968-.261 1.406-.47.187-1.396.698-2.469 1.53-3.218a21.399 21.399 0 01-3.202-.563c-.948-.25-1.927-.656-2.937-1.22-1.011-.561-1.85-1.26-2.516-2.093-.667-.833-1.214-1.927-1.64-3.28-.427-1.355-.641-2.918-.641-4.688 0-2.521.823-4.667 2.469-6.438-.771-1.895-.698-4.02.218-6.374.605-.188 1.5-.047 2.688.421 1.188.47 2.057.87 2.61 1.204.552.333.994.615 1.328.843a22.187 22.187 0 016-.812c2.062 0 4.062.27 6 .812l1.187-.75c.812-.5 1.771-.958 2.875-1.375 1.104-.416 1.948-.53 2.532-.343.937 2.354 1.02 4.479.25 6.374 1.645 1.771 2.468 3.917 2.468 6.438 0 1.77-.214 3.338-.64 4.703-.427 1.365-.979 2.458-1.656 3.281-.677.823-1.521 1.516-2.531 2.078-1.01.563-1.99.969-2.938 1.219-.948.25-2.016.438-3.203.563 1.083.937 1.624 2.416 1.624 4.437v6.593c0 .375.13.688.391.937.26.25.672.323 1.235.219 4.833-1.604 8.776-4.495 11.828-8.672C46.473 34.517 48 29.814 48 24.585c-.001-4.353-1.075-8.368-3.22-12.045z',
+                        }),
+                    );
+                },
+                h = r.a.createElement;
+            var v = function () {
+                    return h(
+                        'svg',
+                        { xmlns: 'http://www.w3.org/2000/svg', width: '48', height: '48', fill: 'none', viewBox: '0 0 48 48' },
+                        h('path', {
+                            fill: '#000',
+                            d: 'M24 0C10.747 0 0 10.747 0 24s10.747 24 24 24 24-10.747 24-24S37.253 0 24 0zm-6.974 36.281H11.18V18.696h5.845v17.585zm-2.922-19.986h-.039c-1.961 0-3.23-1.35-3.23-3.038 0-1.725 1.308-3.038 3.307-3.038 2 0 3.23 1.313 3.268 3.038 0 1.688-1.268 3.038-3.306 3.038zM38.102 36.28h-5.844v-9.407c0-2.365-.847-3.977-2.962-3.977-1.614 0-2.576 1.088-2.998 2.138-.155.375-.193.9-.193 1.426v9.82h-5.844s.076-15.935 0-17.585h5.844v2.49c.777-1.198 2.167-2.903 5.268-2.903 3.845 0 6.73 2.514 6.73 7.915v10.083z',
+                        }),
+                    );
+                },
+                g = a.createElement,
+                y = function () {
+                    return g(
+                        'div',
+                        { className: 'p-4 md:p-0 bg-papaya-whip-500 md:py-4' },
+                        g(
+                            'div',
+                            { className: 'mx-auto md:w-4/5' },
+                            g('h2', { className: 'text-xl font-semibold text-center text-wine-berry-500 md:text-4xl' }, 'Welcome Here!'),
+                            g(
+                                'div',
+                                { className: 'flex flex-col space-y-4 md:space-x-16 md:flex-row md:justify-center' },
+                                g('img', { className: 'object-cover md:h-52 ', src: '/images/banner.jpeg', alt: 'Lam tam nhu' }),
+                                g(
+                                    'div',
+                                    { className: 'space-y-4' },
+                                    g(
+                                        'h1',
+                                        { className: 'text-2xl font-semibold text-center md:text-4xl text-punch-500 md:text-left' },
+                                        'L\xe2m T\xe2m Nh\u01b0',
+                                    ),
+                                    g(
+                                        'p',
+                                        { className: 'max-w-2xl opacity-70' },
+                                        "I\u2019m a Front-end web developer and UI designer. At FPT University, I am pursuing a degree in Software Engineering. I'm also proficient in English, design, and architectural development, as seen by several school assignment projects.",
+                                    ),
+                                    g(
+                                        'div',
+                                        { className: 'text-center md:text-left' },
+                                        g('button', { className: 'px-4 py-2 font-semibold text-gray-100 rounded-xl bg-punch-500' }, 'Get In Touch'),
+                                    ),
+                                ),
+                                g(
+                                    'div',
+                                    { className: 'hidden space-y-4 lg:block' },
+                                    g(
+                                        'a',
+                                        {
+                                            href: 'https://www.linkedin.com/in/shelling-dahlia/',
+                                            className: 'block',
+                                            target: '__blank',
+                                        },
+                                        g(v, null),
+                                    ),
+                                    g('a', { href: 'https://github.com/shelling94', target: '__blank', className: 'block' }, g(p, null)),
+                                    g('a', { href: 'https://www.behance.net/tmnhlm1', className: 'block', target: '__blank' }, g(d, null)),
+                                ),
+                            ),
+                        ),
+                    );
+                },
+                w = n('Yh1s'),
+                x = {
+                    home: {
+                        link: '/',
+                        header: {
+                            title: 'L\xe2m T\xe2m Nh\u01b0 | Portfolio',
+                            canonical: '/',
+                            description: 'My Personal Portfolio',
+                            isIndexPage: !0,
+                        },
+                    },
+                    404: { link: '/404', header: { title: '', canonical: '/404', description: 'Page Not Found' } },
+                },
+                b = a.createElement,
+                M = function () {
+                    return b(
+                        'div',
+                        { className: 'flex justify-center space-x-16 md:py-8' },
+                        b(
+                            'div',
+                            { className: 'px-2 py-4 space-y-2' },
+                            b('h1', { className: 'text-lg font-semibold text-punch-500 md:text-4xl' }, 'About Me'),
+                            b(
+                                'p',
+                                { className: 'max-w-lg opacity-70' },
+                                'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+                            ),
+                            b(
+                                'div',
+                                { className: 'flex flex-col space-y-2 md:space-y-0 md:space-x-8 md:flex-row' },
+                                b(
+                                    'ul',
+                                    { className: 'space-y-2 md:space-y-4' },
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/location.png', alt: '', width: '24', height: '24' }),
+                                        ' Location: Ho Chi City, Vietnam',
+                                    ),
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/uni.png', alt: '', width: '24', height: '24' }),
+                                        ' University: FPT University',
+                                    ),
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/phone.png', alt: '', width: '24', height: '24' }),
+                                        ' Phone: 0901951454',
+                                    ),
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/level.png', alt: '', width: '24', height: '24' }),
+                                        ' Level: Fresher',
+                                    ),
+                                ),
+                                b(
+                                    'ul',
+                                    { className: 'space-y-2 md:space-y-4' },
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/address.png', alt: '', width: '24', height: '24' }),
+                                        ' Address: Binh Thanh District',
+                                    ),
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/degree.png', alt: '', width: '24', height: '24' }),
+                                        ' Degree: Undergraduate',
+                                    ),
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/email.png', alt: '', width: '24', height: '24' }),
+                                        ' Email: tamnhu.dahlia@gmail.com',
+                                    ),
+                                    b(
+                                        'li',
+                                        { className: 'flex items-center gap-1' },
+                                        b('img', { src: '/images/major.png', alt: '', width: '24', height: '24' }),
+                                        ' Major: Front-end Developer, UI designer',
+                                    ),
+                                ),
+                            ),
+                        ),
+                        b(
+                            'div',
+                            { className: 'relative hidden m-8 h-96 cus-border lg:block' },
+                            b('img', { src: '/images/image.png', alt: 'lam tam nhu', className: 'z-10 h-full ' }),
+                        ),
+                    );
+                },
+                _ = a.createElement;
+            t.default = function () {
+                return _(a.Fragment, null, _(w.a, x.home.header), _(u, null), _(y, null), _(M, null));
+            };
+        },
+        '48fX': function (e, t, n) {
+            var a = n('qhzo');
+            e.exports = function (e, t) {
+                if ('function' !== typeof t && null !== t) throw new TypeError('Super expression must either be null or a function');
+                (e.prototype = Object.create(t && t.prototype, { constructor: { value: e, writable: !0, configurable: !0 } })), t && a(e, t);
+            };
+        },
+        '5fIB': function (e, t, n) {
+            var a = n('7eYB');
+            e.exports = function (e) {
+                if (Array.isArray(e)) return a(e);
+            };
+        },
+        '8Kt/': function (e, t, n) {
+            'use strict';
+            n('oI91');
+            (t.__esModule = !0), (t.defaultHead = u), (t.default = void 0);
+            var a,
+                r = (function (e) {
+                    if (e && e.__esModule) return e;
+                    if (null === e || ('object' !== typeof e && 'function' !== typeof e)) return { default: e };
+                    var t = s();
+                    if (t && t.has(e)) return t.get(e);
+                    var n = {},
+                        a = Object.defineProperty && Object.getOwnPropertyDescriptor;
+                    for (var r in e)
+                        if (Object.prototype.hasOwnProperty.call(e, r)) {
+                            var c = a ? Object.getOwnPropertyDescriptor(e, r) : null;
+                            c && (c.get || c.set) ? Object.defineProperty(n, r, c) : (n[r] = e[r]);
+                        }
+                    (n.default = e), t && t.set(e, n);
+                    return n;
+                })(n('q1tI')),
+                c = (a = n('Xuae')) && a.__esModule ? a : { default: a },
+                o = n('lwAK'),
+                i = n('FYa8'),
+                l = n('/0+H');
+            function s() {
+                if ('function' !== typeof WeakMap) return null;
+                var e = new WeakMap();
+                return (
+                    (s = function () {
+                        return e;
+                    }),
+                    e
+                );
+            }
+            function u() {
+                var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0],
+                    t = [r.default.createElement('meta', { charSet: 'utf-8' })];
+                return e || t.push(r.default.createElement('meta', { name: 'viewport', content: 'width=device-width' })), t;
+            }
+            function f(e, t) {
+                return 'string' === typeof t || 'number' === typeof t
+                    ? e
+                    : t.type === r.default.Fragment
+                    ? e.concat(
+                          r.default.Children.toArray(t.props.children).reduce(function (e, t) {
+                              return 'string' === typeof t || 'number' === typeof t ? e : e.concat(t);
+                          }, []),
+                      )
+                    : e.concat(t);
+            }
+            var d = ['name', 'httpEquiv', 'charSet', 'itemProp'];
+            function m(e, t) {
+                return e
+                    .reduce(function (e, t) {
+                        var n = r.default.Children.toArray(t.props.children);
+                        return e.concat(n);
+                    }, [])
+                    .reduce(f, [])
+                    .reverse()
+                    .concat(u(t.inAmpMode))
+                    .filter(
+                        (function () {
+                            var e = new Set(),
+                                t = new Set(),
+                                n = new Set(),
+                                a = {};
+                            return function (r) {
+                                var c = !0,
+                                    o = !1;
+                                if (r.key && 'number' !== typeof r.key && r.key.indexOf('$') > 0) {
+                                    o = !0;
+                                    var i = r.key.slice(r.key.indexOf('$') + 1);
+                                    e.has(i) ? (c = !1) : e.add(i);
+                                }
+                                switch (r.type) {
+                                    case 'title':
+                                    case 'base':
+                                        t.has(r.type) ? (c = !1) : t.add(r.type);
+                                        break;
+                                    case 'meta':
+                                        for (var l = 0, s = d.length; l < s; l++) {
+                                            var u = d[l];
+                                            if (r.props.hasOwnProperty(u))
+                                                if ('charSet' === u) n.has(u) ? (c = !1) : n.add(u);
+                                                else {
+                                                    var f = r.props[u],
+                                                        m = a[u] || new Set();
+                                                    ('name' === u && o) || !m.has(f) ? (m.add(f), (a[u] = m)) : (c = !1);
+                                                }
+                                        }
+                                }
+                                return c;
+                            };
+                        })(),
+                    )
+                    .reverse()
+                    .map(function (e, t) {
+                        var n = e.key || t;
+                        return r.default.cloneElement(e, { key: n });
+                    });
+            }
+            function p(e) {
+                var t = e.children,
+                    n = (0, r.useContext)(o.AmpStateContext),
+                    a = (0, r.useContext)(i.HeadManagerContext);
+                return r.default.createElement(c.default, { reduceComponentsToState: m, headManager: a, inAmpMode: (0, l.isInAmpMode)(n) }, t);
+            }
+            p.rewind = function () {};
+            var h = p;
+            t.default = h;
+        },
+        '8oxB': function (e, t) {
+            var n,
+                a,
+                r = (e.exports = {});
+            function c() {
+                throw new Error('setTimeout has not been defined');
+            }
+            function o() {
+                throw new Error('clearTimeout has not been defined');
+            }
+            function i(e) {
+                if (n === setTimeout) return setTimeout(e, 0);
+                if ((n === c || !n) && setTimeout) return (n = setTimeout), setTimeout(e, 0);
+                try {
+                    return n(e, 0);
+                } catch (t) {
+                    try {
+                        return n.call(null, e, 0);
+                    } catch (t) {
+                        return n.call(this, e, 0);
+                    }
+                }
+            }
+            !(function () {
+                try {
+                    n = 'function' === typeof setTimeout ? setTimeout : c;
+                } catch (e) {
+                    n = c;
+                }
+                try {
+                    a = 'function' === typeof clearTimeout ? clearTimeout : o;
+                } catch (e) {
+                    a = o;
+                }
+            })();
+            var l,
+                s = [],
+                u = !1,
+                f = -1;
+            function d() {
+                u && l && ((u = !1), l.length ? (s = l.concat(s)) : (f = -1), s.length && m());
+            }
+            function m() {
+                if (!u) {
+                    var e = i(d);
+                    u = !0;
+                    for (var t = s.length; t; ) {
+                        for (l = s, s = []; ++f < t; ) l && l[f].run();
+                        (f = -1), (t = s.length);
+                    }
+                    (l = null),
+                        (u = !1),
+                        (function (e) {
+                            if (a === clearTimeout) return clearTimeout(e);
+                            if ((a === o || !a) && clearTimeout) return (a = clearTimeout), clearTimeout(e);
+                            try {
+                                a(e);
+                            } catch (t) {
+                                try {
+                                    return a.call(null, e);
+                                } catch (t) {
+                                    return a.call(this, e);
+                                }
+                            }
+                        })(e);
+                }
+            }
+            function p(e, t) {
+                (this.fun = e), (this.array = t);
+            }
+            function h() {}
+            (r.nextTick = function (e) {
+                var t = new Array(arguments.length - 1);
+                if (arguments.length > 1) for (var n = 1; n < arguments.length; n++) t[n - 1] = arguments[n];
+                s.push(new p(e, t)), 1 !== s.length || u || i(m);
+            }),
+                (p.prototype.run = function () {
+                    this.fun.apply(null, this.array);
+                }),
+                (r.title = 'browser'),
+                (r.browser = !0),
+                (r.env = {}),
+                (r.argv = []),
+                (r.version = ''),
+                (r.versions = {}),
+                (r.on = h),
+                (r.addListener = h),
+                (r.once = h),
+                (r.off = h),
+                (r.removeListener = h),
+                (r.removeAllListeners = h),
+                (r.emit = h),
+                (r.prependListener = h),
+                (r.prependOnceListener = h),
+                (r.listeners = function (e) {
+                    return [];
+                }),
+                (r.binding = function (e) {
+                    throw new Error('process.binding is not supported');
+                }),
+                (r.cwd = function () {
+                    return '/';
+                }),
+                (r.chdir = function (e) {
+                    throw new Error('process.chdir is not supported');
+                }),
+                (r.umask = function () {
+                    return 0;
+                });
+        },
+        FYa8: function (e, t, n) {
+            'use strict';
+            var a;
+            (t.__esModule = !0), (t.HeadManagerContext = void 0);
+            var r = ((a = n('q1tI')) && a.__esModule ? a : { default: a }).default.createContext({});
+            t.HeadManagerContext = r;
+        },
+        T0f4: function (e, t) {
+            function n(t) {
+                return (
+                    (e.exports = n =
+                        Object.setPrototypeOf
+                            ? Object.getPrototypeOf
+                            : function (e) {
+                                  return e.__proto__ || Object.getPrototypeOf(e);
+                              }),
+                    n(t)
+                );
+            }
+            e.exports = n;
+        },
+        UkVL: function (e, t, n) {
+            'use strict';
+            n.d(t, 'a', function () {
+                return a;
+            });
+            var a = function (e) {
+                return e
+                    .split(' ')
+                    .map(function (e) {
+                        return e.charAt(0).toUpperCase() + e.slice(1);
+                    })
+                    .join(' ');
+            };
+        },
+        Xuae: function (e, t, n) {
+            'use strict';
+            var a = n('mPvQ'),
+                r = n('/GRZ'),
+                c = n('i2R6'),
+                o = (n('qXWd'), n('48fX')),
+                i = n('tCBg'),
+                l = n('T0f4');
+            function s(e) {
+                var t = (function () {
+                    if ('undefined' === typeof Reflect || !Reflect.construct) return !1;
+                    if (Reflect.construct.sham) return !1;
+                    if ('function' === typeof Proxy) return !0;
+                    try {
+                        return Date.prototype.toString.call(Reflect.construct(Date, [], function () {})), !0;
+                    } catch (e) {
+                        return !1;
+                    }
+                })();
+                return function () {
+                    var n,
+                        a = l(e);
+                    if (t) {
+                        var r = l(this).constructor;
+                        n = Reflect.construct(a, arguments, r);
+                    } else n = a.apply(this, arguments);
+                    return i(this, n);
+                };
+            }
+            (t.__esModule = !0), (t.default = void 0);
+            var u = n('q1tI'),
+                f = (function (e) {
+                    o(n, e);
+                    var t = s(n);
+                    function n(e) {
+                        var c;
+                        return (
+                            r(this, n),
+                            ((c = t.call(this, e))._hasHeadManager = void 0),
+                            (c.emitChange = function () {
+                                c._hasHeadManager &&
+                                    c.props.headManager.updateHead(c.props.reduceComponentsToState(a(c.props.headManager.mountedInstances), c.props));
+                            }),
+                            (c._hasHeadManager = c.props.headManager && c.props.headManager.mountedInstances),
+                            c
+                        );
+                    }
+                    return (
+                        c(n, [
+                            {
+                                key: 'componentDidMount',
+                                value: function () {
+                                    this._hasHeadManager && this.props.headManager.mountedInstances.add(this), this.emitChange();
+                                },
+                            },
+                            {
+                                key: 'componentDidUpdate',
+                                value: function () {
+                                    this.emitChange();
+                                },
+                            },
+                            {
+                                key: 'componentWillUnmount',
+                                value: function () {
+                                    this._hasHeadManager && this.props.headManager.mountedInstances.delete(this), this.emitChange();
+                                },
+                            },
+                            {
+                                key: 'render',
+                                value: function () {
+                                    return null;
+                                },
+                            },
+                        ]),
+                        n
+                    );
+                })(u.Component);
+            t.default = f;
+        },
+        YFqc: function (e, t, n) {
+            e.exports = n('cTJO');
+        },
+        Yh1s: function (e, t, n) {
+            'use strict';
+            (function (e) {
+                var a = n('q1tI'),
+                    r = n('g4pe'),
+                    c = n.n(r),
+                    o = n('UkVL'),
+                    i = a.createElement;
+                t.a = function (t) {
+                    var n = t.title,
+                        a = void 0 === n ? '' : n,
+                        r = t.isIndexPage,
+                        l = void 0 !== r && r,
+                        s = t.isFollowPage,
+                        u = void 0 === s || s,
+                        f = t.description,
+                        d = void 0 === f ? '' : f,
+                        m = t.canonical,
+                        p = void 0 === m ? '' : m,
+                        h = t.imageUrl,
+                        v = void 0 === h ? '/images/image.png' : h,
+                        g = u ? 'follow' : 'nofollow',
+                        y = ''.concat(l ? 'index' : 'noindex', ',').concat(g),
+                        w = ''.concat(a);
+                    return i(
+                        c.a,
+                        null,
+                        i('meta', { charSet: 'UTF-8' }),
+                        i('meta', { httpEquiv: 'Content-Type', content: 'text/html;charset=UTF-8' }),
+                        i('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, user-scalable=0' }),
+                        i('title', null, Object(o.a)(w)),
+                        i('meta', { name: 'description', content: d }),
+                        i('meta', { name: 'robots', content: y }),
+                        i('meta', { name: 'keywords', content: 'Lam Tam Nhu, portfolio, personal project' }),
+                        i('link', { href: 'https://shelling.site' + p, rel: 'canonical' }),
+                        i('meta', { property: 'og:type', content: 'article' }),
+                        i('meta', { property: 'og:title', content: w }),
+                        i('meta', { property: 'og:description', content: d }),
+                        i('meta', { property: 'og:image', content: v }),
+                        i('meta', { property: 'fb:app_id', content: e.env.FB_APP_ID }),
+                        i('meta', { name: 'twitter:title', content: w }),
+                        i('meta', { name: 'twitter:description', content: d }),
+                        i('meta', { name: 'twitter:image', content: v }),
+                        i('meta', { name: 'twitter:card', content: 'summary_large_image' }),
+                    );
+                };
+            }.call(this, n('8oxB')));
+        },
+        cTJO: function (e, t, n) {
+            'use strict';
+            var a = n('zoAU'),
+                r = n('7KCV');
+            (t.__esModule = !0), (t.default = void 0);
+            var c = r(n('q1tI')),
+                o = n('elyg'),
+                i = n('nOHt'),
+                l = n('vNVm'),
+                s = {};
+            function u(e, t, n, a) {
+                if (e && (0, o.isLocalURL)(t)) {
+                    e.prefetch(t, n, a).catch(function (e) {
+                        0;
+                    });
+                    var r = a && 'undefined' !== typeof a.locale ? a.locale : e && e.locale;
+                    s[t + '%' + n + (r ? '%' + r : '')] = !0;
+                }
+            }
+            var f = function (e) {
+                var t = !1 !== e.prefetch,
+                    n = (0, i.useRouter)(),
+                    r = (n && n.pathname) || '/',
+                    f = c.default.useMemo(
+                        function () {
+                            var t = (0, o.resolveHref)(r, e.href, !0),
+                                n = a(t, 2),
+                                c = n[0],
+                                i = n[1];
+                            return { href: c, as: e.as ? (0, o.resolveHref)(r, e.as) : i || c };
+                        },
+                        [r, e.href, e.as],
+                    ),
+                    d = f.href,
+                    m = f.as,
+                    p = e.children,
+                    h = e.replace,
+                    v = e.shallow,
+                    g = e.scroll,
+                    y = e.locale;
+                'string' === typeof p && (p = c.default.createElement('a', null, p));
+                var w = c.Children.only(p),
+                    x = w && 'object' === typeof w && w.ref,
+                    b = (0, l.useIntersection)({ rootMargin: '200px' }),
+                    M = a(b, 2),
+                    _ = M[0],
+                    N = M[1],
+                    C = c.default.useCallback(
+                        function (e) {
+                            _(e), x && ('function' === typeof x ? x(e) : 'object' === typeof x && (x.current = e));
+                        },
+                        [x, _],
+                    );
+                (0, c.useEffect)(
+                    function () {
+                        var e = N && t && (0, o.isLocalURL)(d),
+                            a = 'undefined' !== typeof y ? y : n && n.locale,
+                            r = s[d + '%' + m + (a ? '%' + a : '')];
+                        e && !r && u(n, d, m, { locale: a });
+                    },
+                    [m, d, N, y, t, n],
+                );
+                var k = {
+                    ref: C,
+                    onClick: function (e) {
+                        w.props && 'function' === typeof w.props.onClick && w.props.onClick(e),
+                            e.defaultPrevented ||
+                                (function (e, t, n, a, r, c, i, l) {
+                                    ('A' !== e.currentTarget.nodeName ||
+                                        (!(function (e) {
+                                            var t = e.currentTarget.target;
+                                            return (
+                                                (t && '_self' !== t) ||
+                                                e.metaKey ||
+                                                e.ctrlKey ||
+                                                e.shiftKey ||
+                                                e.altKey ||
+                                                (e.nativeEvent && 2 === e.nativeEvent.which)
+                                            );
+                                        })(e) &&
+                                            (0, o.isLocalURL)(n))) &&
+                                        (e.preventDefault(),
+                                        null == i && (i = a.indexOf('#') < 0),
+                                        t[r ? 'replace' : 'push'](n, a, { shallow: c, locale: l, scroll: i }));
+                                })(e, n, d, m, h, v, g, y);
+                    },
+                    onMouseEnter: function (e) {
+                        (0, o.isLocalURL)(d) &&
+                            (w.props && 'function' === typeof w.props.onMouseEnter && w.props.onMouseEnter(e), u(n, d, m, { priority: !0 }));
+                    },
+                };
+                if (e.passHref || ('a' === w.type && !('href' in w.props))) {
+                    var E = 'undefined' !== typeof y ? y : n && n.locale,
+                        T = n && n.isLocaleDomain && (0, o.getDomainLocale)(m, E, n && n.locales, n && n.domainLocales);
+                    k.href = T || (0, o.addBasePath)((0, o.addLocale)(m, E, n && n.defaultLocale));
+                }
+                return c.default.cloneElement(w, k);
+            };
+            t.default = f;
+        },
+        g4pe: function (e, t, n) {
+            e.exports = n('8Kt/');
+        },
+        kG2m: function (e, t) {
+            e.exports = function () {
+                throw new TypeError(
+                    'Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.',
+                );
+            };
+        },
+        lwAK: function (e, t, n) {
+            'use strict';
+            var a;
+            (t.__esModule = !0), (t.AmpStateContext = void 0);
+            var r = ((a = n('q1tI')) && a.__esModule ? a : { default: a }).default.createContext({});
+            t.AmpStateContext = r;
+        },
+        mPvQ: function (e, t, n) {
+            var a = n('5fIB'),
+                r = n('rlHP'),
+                c = n('KckH'),
+                o = n('kG2m');
+            e.exports = function (e) {
+                return a(e) || r(e) || c(e) || o();
+            };
+        },
+        oI91: function (e, t) {
+            e.exports = function (e, t, n) {
+                return t in e ? Object.defineProperty(e, t, { value: n, enumerable: !0, configurable: !0, writable: !0 }) : (e[t] = n), e;
+            };
+        },
+        qXWd: function (e, t) {
+            e.exports = function (e) {
+                if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                return e;
+            };
+        },
+        rlHP: function (e, t) {
+            e.exports = function (e) {
+                if ('undefined' !== typeof Symbol && Symbol.iterator in Object(e)) return Array.from(e);
+            };
+        },
+        tCBg: function (e, t, n) {
+            var a = n('C+bE'),
+                r = n('qXWd');
+            e.exports = function (e, t) {
+                return !t || ('object' !== a(t) && 'function' !== typeof t) ? r(e) : t;
+            };
+        },
+        vNVm: function (e, t, n) {
+            'use strict';
+            var a = n('zoAU');
+            (t.__esModule = !0),
+                (t.useIntersection = function (e) {
+                    var t = e.rootMargin,
+                        n = e.disabled || !o,
+                        l = (0, r.useRef)(),
+                        s = (0, r.useState)(!1),
+                        u = a(s, 2),
+                        f = u[0],
+                        d = u[1],
+                        m = (0, r.useCallback)(
+                            function (e) {
+                                l.current && (l.current(), (l.current = void 0)),
+                                    n ||
+                                        f ||
+                                        (e &&
+                                            e.tagName &&
+                                            (l.current = (function (e, t, n) {
+                                                var a = (function (e) {
+                                                        var t = e.rootMargin || '',
+                                                            n = i.get(t);
+                                                        if (n) return n;
+                                                        var a = new Map(),
+                                                            r = new IntersectionObserver(function (e) {
+                                                                e.forEach(function (e) {
+                                                                    var t = a.get(e.target),
+                                                                        n = e.isIntersecting || e.intersectionRatio > 0;
+                                                                    t && n && t(n);
+                                                                });
+                                                            }, e);
+                                                        return i.set(t, (n = { id: t, observer: r, elements: a })), n;
+                                                    })(n),
+                                                    r = a.id,
+                                                    c = a.observer,
+                                                    o = a.elements;
+                                                return (
+                                                    o.set(e, t),
+                                                    c.observe(e),
+                                                    function () {
+                                                        o.delete(e), c.unobserve(e), 0 === o.size && (c.disconnect(), i.delete(r));
+                                                    }
+                                                );
+                                            })(
+                                                e,
+                                                function (e) {
+                                                    return e && d(e);
+                                                },
+                                                { rootMargin: t },
+                                            )));
+                            },
+                            [n, t, f],
+                        );
+                    return (
+                        (0, r.useEffect)(
+                            function () {
+                                if (!o && !f) {
+                                    var e = (0, c.requestIdleCallback)(function () {
+                                        return d(!0);
+                                    });
+                                    return function () {
+                                        return (0, c.cancelIdleCallback)(e);
+                                    };
+                                }
+                            },
+                            [f],
+                        ),
+                        [m, f]
+                    );
+                });
+            var r = n('q1tI'),
+                c = n('0G5g'),
+                o = 'undefined' !== typeof IntersectionObserver;
+            var i = new Map();
+        },
+    },
+    [['/EDR', 0, 1, 2]],
+]);
